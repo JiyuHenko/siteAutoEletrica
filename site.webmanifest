@@ -16,5 +16,13 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "description": "Auto Elétrica Avelar — diagnóstico e eletrônica automotiva em Passos–MG.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "scope": "./",
+  "categories": [
+    "automotive",
+    "business"
   ]
 }

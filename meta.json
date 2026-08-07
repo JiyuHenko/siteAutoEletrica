@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "AutoRepair",
+        "LocalBusiness"
+      ],
+      "@id": "https://autoeletricaavelar.com.br/#empresa",
+      "name": "Auto Elétrica Avelar",
+      "alternateName": [
+        "Auto Eletrônica Avelar",
+        "Avelar Auto Elétrica"
+      ],
+      "url": "https://autoeletricaavelar.com.br/",
+      "description": "Auto elétrica e eletrônica automotiva em Passos–MG, com diagnóstico, injeção eletrônica, ar-condicionado, reparo de módulos, remap e atendimento a veículos leves, pesados e agrícolas.",
+      "telephone": "+553535211848",
+      "email": "autoeletricaavelar@hotmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua dos Caiçaras, 53",
+        "addressLocality": "Passos",
+        "addressRegion": "MG",
+        "postalCode": "37901-518",
+        "addressCountry": "BR"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Passos"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Sudoeste de Minas Gerais"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Região da Serra da Canastra"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/autoeletricaavelar_passos/",
+        "https://www.instagram.com/autoeletronicaavelarpassos/",
+        "https://www.facebook.com/autoeletricaavelar/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://autoeletricaavelar.com.br/#website",
+      "url": "https://autoeletricaavelar.com.br/",
+      "name": "Auto Elétrica Avelar",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://autoeletricaavelar.com.br/#empresa"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "name": "Principais serviços da Auto Elétrica Avelar",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://autoeletricaavelar.com.br/ar-condicionado-automotivo.html",
+          "name": "Ar-condicionado automotivo"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://autoeletricaavelar.com.br/injecao-eletronica.html",
+          "name": "Injeção eletrônica"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://autoeletricaavelar.com.br/reparo-modulos-eletronicos.html",
+          "name": "Reparo de módulos"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "url": "https://autoeletricaavelar.com.br/remap.html",
+          "name": "Remap e performance"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "url": "https://autoeletricaavelar.com.br/linha-pesada-agricola.html",
+          "name": "Linha pesada e agrícola"
+        }
+      ]
+    }
+  ],
+  "dateModified": "2026-08-07"
+}

@@ -315,7 +315,7 @@ p{margin:0}
 .tag-cloud{display:flex;flex-wrap:wrap;gap:10px}
 .tag-cloud span{padding:10px 13px;border-radius:11px;background:#fff;border:1px solid var(--line);font-weight:750;color:var(--blue);font-size:.85rem}
 .notice{border-left:5px solid var(--yellow);background:#fff8d9;border-radius:0 16px 16px 0;padding:18px 20px;color:#33465a}
-.notice1{border-left:5px solid var(--yellow);background:#fff8d9 1;border-radius:0 16px 16px 0;padding:18px 20px;color:#fff}
+.notice1{border-left:5px solid var(--yellow);background:#fff8d9;border-radius:0 16px 16px 0;padding:18px 20px;color:#fff}
 .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
 .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 .kpi{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px}
@@ -385,4 +385,208 @@ p{margin:0}
 }
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}
+}
+
+/* === CUSTOM MIND FRONTEND DESIGN SYSTEM v1.1 === */
+:root{
+  --font-body:"Manrope","Segoe UI",ui-sans-serif,system-ui,sans-serif;
+  --font-display:"Barlow Condensed","Arial Narrow","Segoe UI",sans-serif;
+  --surface:#fff;
+  --surface-warm:#fffaf0;
+  --surface-cool:#f4f7fb;
+  --radius-sm:12px;
+  --radius-md:18px;
+  --ease-ui:cubic-bezier(.2,.75,.2,1);
+  --ease-strong:cubic-bezier(.16,1,.3,1);
+}
+body{
+  font-family:var(--font-body);
+  background:
+    radial-gradient(circle at 8% 10%,rgba(255,196,0,.055),transparent 22rem),
+    var(--paper);
+}
+h1,h2,h3,.story-number{
+  font-family:var(--font-display);
+  font-weight:800;
+  letter-spacing:-.018em;
+}
+h1{line-height:.94}
+h2{line-height:1}
+.lead{line-height:1.7}
+
+/* Header: workshop precision, not generic glass */
+.site-header{
+  background:rgba(255,253,247,.94);
+  backdrop-filter:blur(16px) saturate(125%);
+}
+.site-header::after{
+  content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;
+  background:linear-gradient(90deg,var(--red) 0 13%,var(--yellow) 13% 31%,transparent 31% 100%);
+  opacity:.72;
+}
+.brand-mark{border-radius:11px;transform:skewX(-2deg)}
+.brand-mark img{transform:skewX(2deg)}
+.brand-copy strong{font-family:var(--font-display);font-size:1.23rem;letter-spacing:.01em;text-transform:uppercase}
+.nav a{position:relative}
+.nav > a:not(.btn)::after{
+  content:"";position:absolute;left:4px;right:100%;bottom:3px;height:2px;background:var(--red);
+  transition:right 220ms var(--ease-ui);
+}
+.nav > a:not(.btn):hover::after,.nav > a[aria-current="page"]::after{right:4px}
+
+/* Buttons: short mechanical feedback */
+.btn{border-radius:10px;transition:transform 150ms ease,box-shadow 190ms ease,background-color 190ms ease,border-color 190ms ease}
+.btn:hover{transform:translateY(-2px)}
+.btn:active{transform:translateY(1px) scale(.988)}
+.btn-primary{box-shadow:0 12px 28px rgba(255,196,0,.2)}
+.badge{border-radius:9px;border:1px solid rgba(7,62,118,.08);background:rgba(255,255,255,.58)}
+
+/* Homepage signature: diagnostic instrument language */
+.hero{
+  background:
+    radial-gradient(circle at 80% 12%,rgba(255,196,0,.24),transparent 25%),
+    linear-gradient(125deg,#fffdf7 0%,#fff9df 47%,#eef4fa 100%);
+}
+.hero::after{
+  content:"DIAGNÓSTICO  •  ELETRÔNICA  •  PERFORMANCE";
+  position:absolute;left:max(18px,calc((100% - 1180px)/2));bottom:16px;
+  font:700 .68rem/1 var(--font-body);letter-spacing:.22em;color:rgba(7,62,118,.38);
+  pointer-events:none;
+}
+.hero h1{font-size:clamp(3rem,7.7vw,6.45rem);max-width:11.3ch}
+.hero h1 span{position:relative}
+.hero h1 span::after{
+  content:"";position:absolute;left:0;bottom:-.08em;width:2.2ch;height:.09em;background:var(--red);
+}
+.hero-copy{gap:22px}
+.hero-visual{isolation:isolate}
+.hero-visual::before{
+  content:"";position:absolute;width:min(540px,106%);aspect-ratio:1;border-radius:50%;
+  border:1px dashed rgba(7,62,118,.22);z-index:-1;
+  animation:diagnostic-orbit 22s linear infinite;
+}
+.hero-visual::after{
+  content:"";position:absolute;left:5%;right:5%;height:1px;top:50%;z-index:4;
+  background:linear-gradient(90deg,transparent,var(--red),var(--yellow),transparent);
+  box-shadow:0 0 18px rgba(216,40,39,.25);opacity:.5;
+  animation:scan-line 5.8s ease-in-out infinite;
+  pointer-events:none;
+}
+.logo-stage{border-radius:28px;box-shadow:0 34px 90px rgba(4,26,49,.2)}
+.logo-stage::before{border-style:dashed}
+.tech-chip{border-radius:10px;font-family:var(--font-body);overflow:hidden}
+.tech-chip::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--red)}
+.tech-chip span{letter-spacing:.035em}
+.diagnostic-rail{
+  position:absolute;left:-20px;top:52px;display:grid;gap:7px;z-index:5;
+}
+.diagnostic-rail span{
+  min-width:58px;padding:6px 9px;background:rgba(4,26,49,.94);color:#fff;
+  font:800 .62rem/1 var(--font-body);letter-spacing:.16em;text-align:center;
+  border-left:3px solid var(--yellow);box-shadow:0 8px 22px rgba(4,26,49,.12);
+}
+@keyframes diagnostic-orbit{to{transform:rotate(360deg)}}
+@keyframes scan-line{0%,100%{transform:translateY(-150px);opacity:0}18%,82%{opacity:.55}50%{transform:translateY(150px)}}
+
+/* Orchestrated first load */
+.hero .eyebrow,.hero h1,.hero .lead,.hero .hero-actions,.hero .trust-row,.hero .hero-visual{
+  opacity:0;transform:translateY(18px);animation:hero-enter 700ms var(--ease-ui) forwards;
+}
+.hero .eyebrow{animation-delay:80ms}.hero h1{animation-delay:155ms}.hero .lead{animation-delay:230ms}
+.hero .hero-actions{animation-delay:305ms}.hero .trust-row{animation-delay:380ms}.hero .hero-visual{animation-delay:180ms}
+@keyframes hero-enter{to{opacity:1;transform:translateY(0)}}
+
+/* Signal strip resembles an instrument readout */
+.signal-strip{position:relative}
+.signal-strip::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,196,0,.04),transparent);pointer-events:none}
+.signal-item{position:relative;padding-top:28px;padding-bottom:28px}
+.signal-item::before{content:"";display:block;width:24px;height:3px;background:var(--red);margin-bottom:10px}
+.signal-item strong{font-family:var(--font-display);font-size:1.25rem;letter-spacing:.015em}
+
+/* Cards: flatter, more deliberate; hover moves information instead of scaling everything */
+.card{border-radius:16px;padding:30px;box-shadow:0 10px 28px rgba(4,26,49,.05);transition:transform 220ms var(--ease-ui),box-shadow 220ms ease,border-color 220ms ease}
+.card::before{height:4px;background:linear-gradient(90deg,var(--red) 0 22%,var(--yellow) 22% 58%,transparent 58%)}
+.card:hover{transform:translateY(-4px);box-shadow:0 20px 46px rgba(4,26,49,.1);border-color:rgba(7,62,118,.2)}
+.card-icon{border-radius:10px;transition:transform 220ms var(--ease-ui),background 220ms ease}
+.card:hover .card-icon{transform:translateY(-2px);background:rgba(255,196,0,.27)}
+.card-link .icon{transition:transform 220ms var(--ease-ui)}
+.card:hover .card-link .icon{transform:translateX(4px)}
+
+.section{position:relative}
+.section-head h2{max-width:18ch}
+.section-dark{background:linear-gradient(145deg,#031426,#062c51);}
+.section-dark::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(90deg,black,transparent 85%)}
+.story-panel{border-radius:18px;background:linear-gradient(145deg,#063869,#031426)}
+.story-panel::after{content:"DIAGNOSTIC / AVELAR";position:absolute;right:24px;bottom:22px;font:700 .62rem/1 var(--font-body);letter-spacing:.2em;color:rgba(255,255,255,.23)}
+.story-number{text-transform:uppercase;letter-spacing:.015em}
+
+/* Inner page signature */
+.page-hero{background:linear-gradient(118deg,#031426,#073e76 70%,#082d52)}
+.page-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;background:linear-gradient(90deg,var(--red) 0 18%,var(--yellow) 18% 43%,transparent 43%)}
+.page-hero-inner{padding-top:86px;padding-bottom:72px}
+.page-hero h1{max-width:17ch}
+.breadcrumbs{font-weight:700;letter-spacing:.035em}
+.prose{line-height:1.78}
+.prose h2{font-family:var(--font-display);font-size:clamp(2rem,3.4vw,3rem)}
+.prose h3{font-family:var(--font-display);font-size:1.45rem}
+.sidebar-card{border-radius:14px;box-shadow:0 18px 48px rgba(4,26,49,.09);border-top:4px solid var(--yellow)}
+
+/* FAQ */
+.faq details{border-radius:10px;transition:border-color 180ms ease,box-shadow 180ms ease}
+.faq details[open]{border-color:rgba(7,62,118,.24);box-shadow:0 10px 28px rgba(4,26,49,.05)}
+.faq summary{font-family:var(--font-body)}
+
+/* Contact and map */
+.contact-card{border-radius:16px}
+.contact-card.primary{background:linear-gradient(145deg,#073e76,#031426)}
+.map-frame{border-radius:16px}
+.map-frame::after{content:"PASSOS / MG";position:absolute;right:20px;top:18px;font:800 .62rem/1 var(--font-body);letter-spacing:.2em;color:rgba(7,62,118,.38)}
+
+/* Related service links: internal linking with useful context */
+.section-related{background:var(--surface-cool);border-top:1px solid var(--line)}
+.compact-head{margin-bottom:28px}
+.related-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.related-link{position:relative;display:grid;align-content:start;min-height:210px;padding:24px 23px;background:#fff;border:1px solid var(--line);border-radius:13px;text-decoration:none;transition:transform 220ms var(--ease-ui),box-shadow 220ms ease,border-color 220ms ease}
+.related-link span{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--red);font-weight:850}
+.related-link strong{font:800 1.5rem/1.05 var(--font-display);color:var(--blue);margin-top:12px}
+.related-link p{font-size:.85rem;color:var(--muted);margin-top:12px;line-height:1.55}
+.related-link b{position:absolute;right:20px;bottom:16px;font-size:1.4rem;color:var(--blue);transition:transform 220ms var(--ease-ui)}
+.related-link:hover{transform:translateY(-3px);border-color:rgba(7,62,118,.2);box-shadow:0 16px 38px rgba(4,26,49,.08)}
+.related-link:hover b{transform:translateX(4px)}
+.related-all{background:var(--navy)}
+.related-all strong,.related-all b{color:var(--yellow)}
+.related-all p{color:#b8c8d9}
+.related-all span{color:#fff}
+
+/* CTA and footer */
+.cta-band{position:relative;overflow:hidden;background:linear-gradient(105deg,#ffc400,#ffda54)}
+.cta-band::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(120deg,transparent 0 44px,rgba(4,26,49,.035) 45px 46px)}
+.cta-inner{position:relative}
+.footer{background:linear-gradient(145deg,#020d18,#031426)}
+.footer-logo{border-radius:10px}
+
+/* JS-enhanced, selective reveals. Content remains visible if JS never starts. */
+.motion-ready [data-reveal]{opacity:0;transform:translateY(20px);transition:opacity 620ms var(--ease-ui),transform 620ms var(--ease-ui);transition-delay:var(--reveal-delay,0ms)}
+.motion-ready [data-reveal].is-visible{opacity:1;transform:translateY(0)}
+
+@media(max-width:980px){
+  .diagnostic-rail{left:8px;top:36px}
+  .related-grid{grid-template-columns:repeat(2,1fr)}
+  .hero h1{max-width:12ch}
+}
+@media(max-width:680px){
+  .hero::after{display:none}
+  .hero h1{font-size:clamp(3rem,15vw,4.35rem)}
+  .diagnostic-rail{display:none}
+  .hero-visual::before{width:102%}
+  .logo-stage{border-radius:20px}
+  .tech-chip{right:4px;bottom:-14px}
+  .related-grid{grid-template-columns:1fr}
+  .related-link{min-height:178px}
+  .page-hero-inner{padding-top:60px;padding-bottom:54px}
+}
+@media(prefers-reduced-motion:reduce){
+  .hero .eyebrow,.hero h1,.hero .lead,.hero .hero-actions,.hero .trust-row,.hero .hero-visual{opacity:1;transform:none;animation:none}
+  .hero-visual::before,.hero-visual::after{animation:none}
+  .motion-ready [data-reveal]{opacity:1;transform:none}
 }

@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.autoeletricaavelar.com.br/sitemap.xml
+Sitemap: https://autoeletricaavelar.com.br/sitemap.xml
+
+# Resumo opcional para sistemas de IA: https://autoeletricaavelar.com.br/llms.txt
