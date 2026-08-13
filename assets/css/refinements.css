@@ -59,18 +59,18 @@
   aspect-ratio:1;
   overflow:hidden;
   background:
-    radial-gradient(circle at 50% 50%,rgba(255,196,0,.13),transparent 45%),
-    linear-gradient(145deg,#0b3154,#061b2e 68%);
-  border:1px solid rgba(255,255,255,.14);
-  box-shadow:0 28px 70px rgba(0,0,0,.35);
+    radial-gradient(circle at 50% 46%,rgba(255,255,255,.22),transparent 42%),
+    linear-gradient(145deg,#ffd94a,var(--yellow) 58%,#f2b900);
+  border:1px solid rgba(7,27,48,.24);
+  box-shadow:0 28px 70px rgba(0,0,0,.28);
 }
 .logo-scan-stage::before{
   content:"";
   position:absolute;
   inset:0;
   background-image:
-    linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);
+    linear-gradient(rgba(7,27,48,.065) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(7,27,48,.065) 1px,transparent 1px);
   background-size:32px 32px;
   pointer-events:none;
 }
@@ -79,9 +79,9 @@
   position:absolute;
   width:74%;
   aspect-ratio:1;
-  border:1px dashed rgba(255,196,0,.34);
+  border:1px dashed rgba(7,27,48,.35);
   border-radius:50%;
-  box-shadow:0 0 0 42px rgba(255,255,255,.018),0 0 0 84px rgba(255,255,255,.012);
+  box-shadow:0 0 0 42px rgba(7,27,48,.025),0 0 0 84px rgba(7,27,48,.018);
   animation:avelar-orbit 22s linear infinite;
 }
 .logo-scan-stage img{
@@ -91,7 +91,7 @@
   height:82%;
   max-width:none;
   object-fit:contain;
-  filter:drop-shadow(0 14px 18px rgba(0,0,0,.26));
+  filter:drop-shadow(0 12px 16px rgba(7,27,48,.16));
 }
 .scan-beam{
   position:absolute;
@@ -100,8 +100,8 @@
   right:6%;
   top:14%;
   height:2px;
-  background:linear-gradient(90deg,transparent,var(--red) 15%,var(--yellow) 52%,var(--red) 85%,transparent);
-  box-shadow:0 0 16px rgba(255,196,0,.62),0 0 28px rgba(216,40,39,.25);
+  background:linear-gradient(90deg,transparent,var(--blue) 14%,var(--red) 50%,var(--blue) 86%,transparent);
+  box-shadow:0 0 14px rgba(216,40,39,.5),0 0 24px rgba(10,75,130,.28);
   animation:avelar-scan 4.6s cubic-bezier(.4,0,.2,1) infinite;
 }
 .scan-beam::after{
@@ -111,7 +111,7 @@
   right:8%;
   top:-26px;
   height:52px;
-  background:linear-gradient(to bottom,transparent,rgba(255,196,0,.055),transparent);
+  background:linear-gradient(to bottom,transparent,rgba(10,75,130,.07),transparent);
 }
 .scan-label{
   position:absolute;
@@ -121,7 +121,7 @@
   display:flex;
   align-items:center;
   gap:9px;
-  color:#dce8f1;
+  color:var(--ink);
   font-size:.64rem;
   font-weight:900;
   letter-spacing:.16em;
@@ -132,8 +132,8 @@
   width:8px;
   height:8px;
   border-radius:50%;
-  background:var(--yellow);
-  box-shadow:0 0 14px rgba(255,196,0,.72);
+  background:var(--red);
+  box-shadow:0 0 12px rgba(216,40,39,.45);
 }
 .diagnostic-rail{
   position:absolute;
@@ -148,7 +148,7 @@
   padding:7px 9px;
   background:#041626;
   color:#fff;
-  border-left:3px solid var(--yellow);
+  border-left:3px solid var(--red);
   font-size:.62rem;
   font-weight:900;
   letter-spacing:.14em;
@@ -160,13 +160,13 @@
   z-index:8;
   right:-12px;
   bottom:24px;
-  background:var(--yellow);
-  color:var(--ink);
+  background:var(--ink);
+  color:#fff;
   padding:13px 16px;
   border-left:4px solid var(--red);
   box-shadow:0 15px 34px rgba(0,0,0,.25);
 }
-.scan-chip b{display:block;font:800 1.15rem/1 var(--display);text-transform:uppercase}
+.scan-chip b{display:block;font:800 1.15rem/1 var(--display);text-transform:uppercase;color:var(--yellow)}
 .scan-chip small{display:block;margin-top:5px;font-size:.66rem;font-weight:800;letter-spacing:.06em}
 @keyframes avelar-scan{
   0%,100%{transform:translateY(0);opacity:.35}
