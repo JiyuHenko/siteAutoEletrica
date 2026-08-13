@@ -4,7 +4,7 @@
   if (!document.querySelector('link[data-avelar-refinements]')) {
     const refinementCss = document.createElement('link');
     refinementCss.rel = 'stylesheet';
-    refinementCss.href = 'assets/css/refinements.css';
+    refinementCss.href = 'assets/css/refinements.css?v=20260813-photo-v3';
     refinementCss.dataset.avelarRefinements = 'true';
     document.head.appendChild(refinementCss);
   }
@@ -37,8 +37,8 @@
     });
   });
 
-  // Fotos reais: quando voce subir estes arquivos em assets/img/, o site troca
-  // automaticamente as ilustracoes atuais sem quebrar nada enquanto eles nao existem.
+  // Fotos reais: quando estes arquivos existem em assets/img/, substituem
+  // automaticamente as ilustracoes atuais.
   const photoMap = {
     'oficina.svg': {
       src: 'assets/img/foto-oficina-auto-eletrica-avelar-passos.webp',
@@ -79,15 +79,28 @@
     probe.onload = () => {
       const visual = img.closest('.visual');
       const absolutePhotoUrl = new URL(photo.src, document.baseURI).href;
+
       img.src = photo.src;
       img.alt = photo.alt;
       img.decoding = 'async';
+
+      // The generated photos are 3:4 portrait. Apply the real photo ratio
+      // directly inline so legacy 4:3/cover rules can never crop them.
+      img.style.setProperty('width', '100%', 'important');
+      img.style.setProperty('height', '100%', 'important');
+      img.style.setProperty('object-fit', 'contain', 'important');
+      img.style.setProperty('object-position', 'center', 'important');
+      img.style.setProperty('padding', '0', 'important');
+
       if (visual) {
         visual.style.setProperty('--photo-bg', `url("${absolutePhotoUrl}")`);
+        visual.style.setProperty('aspect-ratio', '3 / 4', 'important');
+        visual.style.setProperty('min-height', '0', 'important');
+        visual.style.setProperty('height', 'auto', 'important');
         visual.classList.add('has-photo');
       }
     };
-    probe.src = photo.src;
+    probe.src = `${photo.src}?v=20260813-photo-v3`;
   });
 
   const year = document.querySelector('[data-year]');
