@@ -77,10 +77,15 @@
 
     const probe = new Image();
     probe.onload = () => {
+      const visual = img.closest('.visual');
+      const absolutePhotoUrl = new URL(photo.src, document.baseURI).href;
       img.src = photo.src;
       img.alt = photo.alt;
       img.decoding = 'async';
-      img.closest('.visual')?.classList.add('has-photo');
+      if (visual) {
+        visual.style.setProperty('--photo-bg', `url("${absolutePhotoUrl}")`);
+        visual.classList.add('has-photo');
+      }
     };
     probe.src = photo.src;
   });
