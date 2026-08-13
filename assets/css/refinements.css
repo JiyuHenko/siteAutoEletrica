@@ -17,7 +17,8 @@
   background:#081d31;
 }
 .visual.has-photo img{
-  object-fit:contain;
+  object-fit:cover;
+  object-position:50% 70%;
   padding:0;
 }
 .hero-visual{
@@ -196,6 +197,7 @@
   .diagnostic-rail{display:none}
   .scan-chip{right:8px;bottom:8px}
   .scan-chip small{display:none}
+  .visual.has-photo img{object-position:50% 68%}
   @keyframes avelar-scan{
     0%,100%{transform:translateY(0);opacity:.35}
     12%{opacity:1}
