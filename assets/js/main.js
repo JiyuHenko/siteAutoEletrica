@@ -1,4 +1,14 @@
 (() => {
+  // Shared refinement layer. Keeping this here applies the fix to every static page
+  // without duplicating another stylesheet link across the whole repository.
+  if (!document.querySelector('link[data-avelar-refinements]')) {
+    const refinementCss = document.createElement('link');
+    refinementCss.rel = 'stylesheet';
+    refinementCss.href = 'assets/css/refinements.css';
+    refinementCss.dataset.avelarRefinements = 'true';
+    document.head.appendChild(refinementCss);
+  }
+
   // GA4 — carregado por este arquivo compartilhado em todas as paginas do site.
   const GA_ID = 'G-CNCG41V6B6';
   if (!window.__avelarGaLoaded) {
