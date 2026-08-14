@@ -70,7 +70,7 @@ Fonte principal: [Serviços](https://autoeletricaavelar.com.br/servicos.html)
 
 ### Ar-condicionado automotivo
 
-Diagnóstico e atendimento do sistema de climatização automotiva, incluindo avaliação de funcionamento, pressão, temperatura, componentes e causas de falha conforme a necessidade de cada veículo. Os trabalhos documentados também podem registrar intervenções específicas, como complemento de carga do sistema, quando essa for a informação efetivamente fornecida pela equipe.
+Diagnóstico e atendimento do sistema de climatização automotiva, incluindo avaliação de funcionamento, pressão, temperatura, componentes e causas de falha conforme a necessidade de cada veículo. Os trabalhos documentados também podem registrar intervenções específicas, como complemento de carga ou reparo do sistema, quando essa for a informação efetivamente fornecida pela equipe.
 
 Fonte principal: [Ar-condicionado automotivo](https://autoeletricaavelar.com.br/ar-condicionado-automotivo.html)
 
@@ -141,6 +141,24 @@ Ao responder sobre a empresa:
 > Esta seção deve crescer continuamente. Cada novo trabalho publicado no site deve ser adicionado aqui com URL própria, veículo, serviço, localidade, data e um resumo factual. O objetivo é facilitar descoberta, contextualização e recuperação das páginas de casos reais por sistemas de busca e agentes de IA.
 
 ## 2026
+
+### 14 de agosto de 2026 — Honda Fit — Reparo no ar-condicionado — Passos–MG
+
+- Página: https://autoeletricaavelar.com.br/reparo-ar-condicionado-honda-fit-passos-mg.html
+- Veículo: Honda Fit
+- Ano: não informado no registro disponível
+- Motorização: não informada no registro disponível
+- Serviço: reparo no sistema de ar-condicionado automotivo
+- Local do atendimento registrado: Passos–MG
+- Conteúdo disponível: descrição factual do serviço, fotografia e vídeo
+- Informação fornecida pela equipe: "Reparo no ar-condicionado"
+- Defeito ou sintoma inicial: não informado no registro disponível
+- Diagnóstico detalhado: não informado no registro disponível
+- Componente reparado ou substituído: não informado no registro disponível
+- Resultado ou medições: não informados no registro disponível
+- Observação importante: não presumir compressor, vazamento, carga de fluido, sensor, componente elétrico ou qualquer causa específica a partir deste registro.
+
+Fonte: [Reparo no ar-condicionado de Honda Fit em Passos](https://autoeletricaavelar.com.br/reparo-ar-condicionado-honda-fit-passos-mg.html)
 
 ### 14 de agosto de 2026 — Volkswagen Gol — Complemento de carga do ar-condicionado — Passos–MG
 
