@@ -213,6 +213,40 @@
   max-width:60ch;
 }
 
+/* Credit the company responsible for the website without competing with the workshop brand. */
+.custom-mind-credit{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+  padding:22px 0 18px;
+  border-top:1px solid rgba(255,255,255,.08);
+}
+.custom-mind-credit>span{
+  color:rgba(255,255,255,.62);
+  font-size:.72rem;
+  font-weight:700;
+  letter-spacing:.04em;
+}
+.custom-mind-credit a{
+  display:inline-flex;
+  align-items:center;
+  opacity:.9;
+  transition:opacity .2s ease,transform .2s ease;
+}
+.custom-mind-credit a:hover,
+.custom-mind-credit a:focus-visible{
+  opacity:1;
+  transform:translateY(-1px);
+}
+.custom-mind-credit img{
+  display:block;
+  width:min(230px,48vw);
+  height:auto;
+  max-height:58px;
+  object-fit:contain;
+}
+
 @media(max-width:980px){
   .hero-classic .hero-grid{grid-template-columns:1fr;min-height:auto}
   .logo-scan-shell{max-width:520px}
@@ -225,6 +259,12 @@
   .diagnostic-rail{display:none}
   .scan-chip{right:8px;bottom:8px}
   .scan-chip small{display:none}
+  .custom-mind-credit{
+    flex-direction:column;
+    gap:9px;
+    text-align:center;
+  }
+  .custom-mind-credit img{width:min(220px,68vw);max-height:54px}
   @keyframes avelar-scan{
     0%,100%{transform:translateY(0);opacity:.35}
     12%{opacity:1}
@@ -235,4 +275,5 @@
 @media(prefers-reduced-motion:reduce){
   .scan-beam,.logo-scan-stage::after{animation:none}
   .scan-beam{top:50%;opacity:.7}
+  .custom-mind-credit a{transition:none}
 }
