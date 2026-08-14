@@ -2,7 +2,7 @@
   if (!document.querySelector('link[data-avelar-refinements]')) {
     const css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = 'assets/css/refinements.css?v=20260814-custom-mind';
+    css.href = 'assets/css/refinements.css?v=20260814-custom-mind-copy';
     css.dataset.avelarRefinements = 'true';
     document.head.appendChild(css);
   }
@@ -69,14 +69,19 @@
   if (year) year.textContent = new Date().getFullYear();
 
   const footer = document.querySelector('footer');
-  if (footer && !footer.querySelector('[data-custom-mind-credit]')) {
-    const credit = document.createElement('div');
-    credit.className = 'wrap custom-mind-credit';
+  const copy = footer?.querySelector('.copy');
+  if (copy && !copy.querySelector('[data-custom-mind-credit]')) {
+    copy.classList.add('copy-with-credit');
+    const credit = document.createElement('a');
+    credit.className = 'custom-mind-credit';
     credit.dataset.customMindCredit = 'true';
-    credit.innerHTML = '<span>Site desenvolvido por</span><a href="https://custommind.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Custom Mind Software Solutions"><img src="assets/img/custom-mind-logo.png" alt="Custom Mind Software Solutions" loading="lazy" decoding="async"></a>';
-    const copy = footer.querySelector('.copy');
-    if (copy) footer.insertBefore(credit, copy);
-    else footer.appendChild(credit);
+    credit.href = 'https://custommind.com.br/';
+    credit.target = '_blank';
+    credit.rel = 'noopener noreferrer';
+    credit.setAttribute('aria-label', 'Site desenvolvido por Custom Mind Software Solutions');
+    credit.title = 'Site desenvolvido por Custom Mind Software Solutions';
+    credit.innerHTML = '<img src="assets/img/custom-mind-logo.png" alt="Custom Mind Software Solutions" loading="lazy" decoding="async">';
+    copy.appendChild(credit);
   }
 
   const menuButton = document.querySelector('[data-menu]');
