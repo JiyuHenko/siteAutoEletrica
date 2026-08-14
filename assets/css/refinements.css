@@ -213,6 +213,39 @@
   max-width:60ch;
 }
 
+/* Compact footer credit: workshop copyright at left, developer brand at right. */
+.copy.copy-with-credit{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+}
+.copy-text{
+  display:inline-flex;
+  align-items:center;
+  white-space:nowrap;
+}
+.custom-mind-credit{
+  display:inline-flex;
+  align-items:center;
+  justify-content:flex-end;
+  margin-left:auto;
+  opacity:.78;
+  transition:opacity .2s ease,transform .2s ease;
+}
+.custom-mind-credit:hover,
+.custom-mind-credit:focus-visible{
+  opacity:1;
+  transform:translateY(-1px);
+}
+.custom-mind-credit img{
+  display:block;
+  width:min(190px,30vw);
+  height:auto;
+  max-height:46px;
+  object-fit:contain;
+}
+
 @media(max-width:980px){
   .hero-classic .hero-grid{grid-template-columns:1fr;min-height:auto}
   .logo-scan-shell{max-width:520px}
@@ -225,6 +258,26 @@
   .diagnostic-rail{display:none}
   .scan-chip{right:8px;bottom:8px}
   .scan-chip small{display:none}
+  .copy.copy-with-credit{
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:7px;
+    padding-top:14px;
+    text-align:center;
+  }
+  .copy-text{
+    font-size:.72rem;
+    line-height:1.4;
+  }
+  .custom-mind-credit{
+    margin-left:0;
+    justify-content:center;
+  }
+  .custom-mind-credit img{
+    width:min(155px,48vw);
+    max-height:38px;
+  }
   @keyframes avelar-scan{
     0%,100%{transform:translateY(0);opacity:.35}
     12%{opacity:1}
@@ -232,7 +285,12 @@
     88%{opacity:1}
   }
 }
+@media(max-width:360px){
+  .copy-text{font-size:.68rem}
+  .custom-mind-credit img{width:min(145px,46vw)}
+}
 @media(prefers-reduced-motion:reduce){
   .scan-beam,.logo-scan-stage::after{animation:none}
   .scan-beam{top:50%;opacity:.7}
+  .custom-mind-credit{transition:none}
 }
