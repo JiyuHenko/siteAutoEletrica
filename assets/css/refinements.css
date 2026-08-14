@@ -220,6 +220,11 @@
   justify-content:space-between;
   gap:24px;
 }
+.copy-text{
+  display:inline-flex;
+  align-items:center;
+  white-space:nowrap;
+}
 .custom-mind-credit{
   display:inline-flex;
   align-items:center;
@@ -257,20 +262,32 @@
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    gap:12px;
+    gap:7px;
+    padding-top:14px;
     text-align:center;
+  }
+  .copy-text{
+    font-size:.72rem;
+    line-height:1.4;
   }
   .custom-mind-credit{
     margin-left:0;
     justify-content:center;
   }
-  .custom-mind-credit img{width:min(185px,58vw);max-height:44px}
+  .custom-mind-credit img{
+    width:min(155px,48vw);
+    max-height:38px;
+  }
   @keyframes avelar-scan{
     0%,100%{transform:translateY(0);opacity:.35}
     12%{opacity:1}
     50%{transform:translateY(255px);opacity:1}
     88%{opacity:1}
   }
+}
+@media(max-width:360px){
+  .copy-text{font-size:.68rem}
+  .custom-mind-credit img{width:min(145px,46vw)}
 }
 @media(prefers-reduced-motion:reduce){
   .scan-beam,.logo-scan-stage::after{animation:none}
