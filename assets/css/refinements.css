@@ -213,6 +213,35 @@
   max-width:60ch;
 }
 
+/* Discreet institutional credibility badge on the homepage. */
+.bosch-partner{
+  display:inline-flex;
+  align-items:center;
+  gap:13px;
+  width:max-content;
+  max-width:100%;
+  margin-top:18px;
+  padding:9px 13px 9px 11px;
+  background:#fff;
+  color:var(--ink);
+  border-left:4px solid #ed1c24;
+  box-shadow:0 10px 26px rgba(0,0,0,.18);
+}
+.bosch-partner>span{
+  color:#5f6f7d;
+  font-size:.66rem;
+  font-weight:900;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.bosch-partner img{
+  display:block;
+  width:150px;
+  height:auto;
+  max-height:35px;
+  object-fit:contain;
+}
+
 /* Compact footer credit: workshop copyright at left, developer brand at right. */
 .copy.copy-with-credit{
   display:flex;
@@ -258,6 +287,13 @@
   .diagnostic-rail{display:none}
   .scan-chip{right:8px;bottom:8px}
   .scan-chip small{display:none}
+  .bosch-partner{
+    gap:10px;
+    margin-top:16px;
+    padding:8px 11px 8px 9px;
+  }
+  .bosch-partner>span{font-size:.62rem}
+  .bosch-partner img{width:128px;max-height:30px}
   .copy.copy-with-credit{
     flex-direction:column;
     align-items:center;
@@ -288,6 +324,7 @@
 @media(max-width:360px){
   .copy-text{font-size:.68rem}
   .custom-mind-credit img{width:min(145px,46vw)}
+  .bosch-partner img{width:118px}
 }
 @media(prefers-reduced-motion:reduce){
   .scan-beam,.logo-scan-stage::after{animation:none}
