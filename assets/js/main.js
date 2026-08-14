@@ -2,7 +2,7 @@
   if (!document.querySelector('link[data-avelar-refinements]')) {
     const css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = 'assets/css/refinements.css?v=20260813-photo-v3';
+    css.href = 'assets/css/refinements.css?v=20260814-custom-mind';
     css.dataset.avelarRefinements = 'true';
     document.head.appendChild(css);
   }
@@ -67,6 +67,17 @@
 
   const year = document.querySelector('[data-year]');
   if (year) year.textContent = new Date().getFullYear();
+
+  const footer = document.querySelector('footer');
+  if (footer && !footer.querySelector('[data-custom-mind-credit]')) {
+    const credit = document.createElement('div');
+    credit.className = 'wrap custom-mind-credit';
+    credit.dataset.customMindCredit = 'true';
+    credit.innerHTML = '<span>Site desenvolvido por</span><a href="https://custommind.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Custom Mind Software Solutions"><img src="assets/img/custom-mind-logo.png" alt="Custom Mind Software Solutions" loading="lazy" decoding="async"></a>';
+    const copy = footer.querySelector('.copy');
+    if (copy) footer.insertBefore(credit, copy);
+    else footer.appendChild(credit);
+  }
 
   const menuButton = document.querySelector('[data-menu]');
   const nav = document.querySelector('[data-nav]');
