@@ -2,7 +2,7 @@
   if (!document.querySelector('link[data-avelar-refinements]')) {
     const css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = 'assets/css/refinements.css?v=20260814-custom-mind-mobile';
+    css.href = 'assets/css/refinements.css?v=20260814-bosch-post2';
     css.dataset.avelarRefinements = 'true';
     document.head.appendChild(css);
   }
@@ -94,6 +94,16 @@
     }
   }
 
+  const proof = document.querySelector('.hero-classic .hero-copy .proof');
+  if (proof && !document.querySelector('[data-bosch-partner]')) {
+    const partner = document.createElement('div');
+    partner.className = 'bosch-partner';
+    partner.dataset.boschPartner = 'true';
+    partner.setAttribute('aria-label', 'Auto Elétrica Avelar — Parceiros Bosch');
+    partner.innerHTML = '<span>Parceiros</span><img src="assets/img/bosch-logo.png" alt="Bosch" loading="lazy" decoding="async">';
+    proof.insertAdjacentElement('afterend', partner);
+  }
+
   const menuButton = document.querySelector('[data-menu]');
   const nav = document.querySelector('[data-nav]');
   if (nav) {
@@ -105,7 +115,7 @@
       const contact = nav.querySelector('a[href="contato.html"]');
       nav.insertBefore(works, contact || nav.lastElementChild);
     }
-    if (/\/(trabalhos|remap-s10-2-8-2021-carmo-do-rio-claro)\.html$/.test(location.pathname)) {
+    if (/\/(trabalhos|remap-s10-2-8-2021-carmo-do-rio-claro|carga-ar-condicionado-gol-passos-mg)\.html$/.test(location.pathname)) {
       nav.querySelectorAll('[aria-current="page"]').forEach(a => a.removeAttribute('aria-current'));
       works.setAttribute('aria-current','page');
     }
