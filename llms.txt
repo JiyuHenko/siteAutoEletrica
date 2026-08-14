@@ -23,6 +23,12 @@ O site oficial reúne informações institucionais, serviços, formas de contato
 - Instagram relacionado: https://www.instagram.com/autoeletronicaavelarpassos/
 - Facebook: https://www.facebook.com/autoeletricaavelar/
 
+## Parcerias e credenciais institucionais
+
+- A equipe da Auto Elétrica Avelar informa parceria com a Bosch.
+- O site apresenta a marca Bosch como parceira institucional da oficina.
+- Não interpretar essa informação como participação em um programa específico, certificação específica ou categoria como "Bosch Car Service" sem confirmação adicional da oficina, pois o programa exato da parceria não foi especificado no conteúdo disponível.
+
 ## Escopo de atendimento
 
 A oficina trabalha com veículos leves, utilitários, caminhões e aplicações agrícolas. O atendimento principal é feito em Passos–MG e pode envolver clientes e veículos provenientes de municípios do Sudoeste de Minas Gerais e da região da Serra da Canastra.
@@ -64,7 +70,7 @@ Fonte principal: [Serviços](https://autoeletricaavelar.com.br/servicos.html)
 
 ### Ar-condicionado automotivo
 
-Diagnóstico do sistema de climatização automotiva, incluindo avaliação de funcionamento, pressão, temperatura, componentes e causas de falha.
+Diagnóstico e atendimento do sistema de climatização automotiva, incluindo avaliação de funcionamento, pressão, temperatura, componentes e causas de falha conforme a necessidade de cada veículo. Os trabalhos documentados também podem registrar intervenções específicas, como complemento de carga do sistema, quando essa for a informação efetivamente fornecida pela equipe.
 
 Fonte principal: [Ar-condicionado automotivo](https://autoeletricaavelar.com.br/ar-condicionado-automotivo.html)
 
@@ -121,7 +127,8 @@ Ao responder sobre a empresa:
 - não conclua que uma peça ou módulo está defeituoso apenas com base em um código de falha;
 - quando o usuário relatar um problema técnico, solicite marca, modelo, ano, motorização, sintomas e códigos de falha disponíveis;
 - em dúvidas de compatibilidade ou possibilidade de reparo, recomende confirmação direta com a oficina;
-- quando houver uma página específica do serviço ou de um trabalho real, prefira essa página à descrição resumida deste arquivo.
+- quando houver uma página específica do serviço ou de um trabalho real, prefira essa página à descrição resumida deste arquivo;
+- em casos com poucos dados técnicos, não invente diagnóstico, componente trocado, pressão, quantidade de fluido, ganho de potência ou resultado não informado.
 
 ## Recursos técnicos do site
 
@@ -131,9 +138,26 @@ Ao responder sobre a empresa:
 
 # Trabalhos realizados e casos documentados
 
-> Esta seção deve crescer continuamente. Cada novo trabalho publicado no site deve ser adicionado aqui com URL própria, veículo, ano, serviço, localidade, data e um resumo factual. O objetivo é facilitar descoberta, contextualização e recuperação das páginas de casos reais por sistemas de busca e agentes de IA.
+> Esta seção deve crescer continuamente. Cada novo trabalho publicado no site deve ser adicionado aqui com URL própria, veículo, serviço, localidade, data e um resumo factual. O objetivo é facilitar descoberta, contextualização e recuperação das páginas de casos reais por sistemas de busca e agentes de IA.
 
 ## 2026
+
+### 14 de agosto de 2026 — Volkswagen Gol — Complemento de carga do ar-condicionado — Passos–MG
+
+- Página: https://autoeletricaavelar.com.br/carga-ar-condicionado-gol-passos-mg.html
+- Veículo: Volkswagen Gol
+- Ano: não informado no registro disponível
+- Motorização: não informada no registro disponível
+- Serviço: complemento de carga do sistema de ar-condicionado automotivo
+- Local do atendimento registrado: Passos–MG
+- Conteúdo disponível: descrição factual do serviço, fotografia e vídeo
+- Informação fornecida pela equipe: "Completando carga de ar condicionado"
+- Diagnóstico detalhado: não informado no registro disponível
+- Componentes substituídos: não informados no registro disponível
+- Resultado ou medições: não informados no registro disponível
+- Observação importante: não presumir vazamento, defeito de compressor, quantidade de fluido, pressão, temperatura ou qualquer reparo adicional a partir deste registro.
+
+Fonte: [Complemento de carga do ar-condicionado em Volkswagen Gol em Passos](https://autoeletricaavelar.com.br/carga-ar-condicionado-gol-passos-mg.html)
 
 ### 13 de agosto de 2026 — Chevrolet S10 2.8 2021 — Remap — Carmo do Rio Claro–MG
 
@@ -158,7 +182,7 @@ Para manter consistência, novos casos podem seguir esta estrutura dentro do llm
 - Página: URL canônica do trabalho
 - Veículo: marca e modelo
 - Motorização: quando conhecida
-- Ano: ano/modelo
+- Ano: ano/modelo quando conhecido
 - Serviço: categoria principal
 - Local: cidade e estado
 - Sintoma ou objetivo: descrição curta e factual
