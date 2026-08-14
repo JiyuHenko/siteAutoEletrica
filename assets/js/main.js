@@ -2,7 +2,7 @@
   if (!document.querySelector('link[data-avelar-refinements]')) {
     const css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = 'assets/css/refinements.css?v=20260814-custom-mind-copy';
+    css.href = 'assets/css/refinements.css?v=20260814-custom-mind-mobile';
     css.dataset.avelarRefinements = 'true';
     document.head.appendChild(css);
   }
@@ -70,18 +70,28 @@
 
   const footer = document.querySelector('footer');
   const copy = footer?.querySelector('.copy');
-  if (copy && !copy.querySelector('[data-custom-mind-credit]')) {
+  if (copy) {
     copy.classList.add('copy-with-credit');
-    const credit = document.createElement('a');
-    credit.className = 'custom-mind-credit';
-    credit.dataset.customMindCredit = 'true';
-    credit.href = 'https://custommind.com.br/';
-    credit.target = '_blank';
-    credit.rel = 'noopener noreferrer';
-    credit.setAttribute('aria-label', 'Site desenvolvido por Custom Mind Software Solutions');
-    credit.title = 'Site desenvolvido por Custom Mind Software Solutions';
-    credit.innerHTML = '<img src="assets/img/custom-mind-logo.png" alt="Custom Mind Software Solutions" loading="lazy" decoding="async">';
-    copy.appendChild(credit);
+
+    if (!copy.querySelector('.copy-text')) {
+      const copyText = document.createElement('span');
+      copyText.className = 'copy-text';
+      while (copy.firstChild) copyText.appendChild(copy.firstChild);
+      copy.appendChild(copyText);
+    }
+
+    if (!copy.querySelector('[data-custom-mind-credit]')) {
+      const credit = document.createElement('a');
+      credit.className = 'custom-mind-credit';
+      credit.dataset.customMindCredit = 'true';
+      credit.href = 'https://custommind.com.br/';
+      credit.target = '_blank';
+      credit.rel = 'noopener noreferrer';
+      credit.setAttribute('aria-label', 'Site desenvolvido por Custom Mind Software Solutions');
+      credit.title = 'Site desenvolvido por Custom Mind Software Solutions';
+      credit.innerHTML = '<img src="assets/img/custom-mind-logo.png" alt="Custom Mind Software Solutions" loading="lazy" decoding="async">';
+      copy.appendChild(credit);
+    }
   }
 
   const menuButton = document.querySelector('[data-menu]');
