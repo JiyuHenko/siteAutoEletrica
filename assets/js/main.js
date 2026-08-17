@@ -2,7 +2,7 @@
   if (!document.querySelector('link[data-avelar-refinements]')) {
     const css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = 'assets/css/refinements.css?v=20260814-bosch-post2';
+    css.href = 'assets/css/refinements.css?v=20260817-post4';
     css.dataset.avelarRefinements = 'true';
     document.head.appendChild(css);
   }
@@ -115,7 +115,7 @@
       const contact = nav.querySelector('a[href="contato.html"]');
       nav.insertBefore(works, contact || nav.lastElementChild);
     }
-    if (/\/(trabalhos|remap-s10-2-8-2021-carmo-do-rio-claro|carga-ar-condicionado-gol-passos-mg)\.html$/.test(location.pathname)) {
+    if (location.pathname.endsWith('/trabalhos.html') || document.querySelector('.case-hero')) {
       nav.querySelectorAll('[aria-current="page"]').forEach(a => a.removeAttribute('aria-current'));
       works.setAttribute('aria-current','page');
     }
