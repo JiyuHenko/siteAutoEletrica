@@ -54,7 +54,7 @@ O fluxo de atendimento considera, conforme o caso:
 
 - [Página inicial](https://autoeletricaavelar.com.br/): apresentação da oficina, principais áreas de atendimento, método de diagnóstico e atuação regional.
 - [Serviços](https://autoeletricaavelar.com.br/servicos.html): catálogo das principais áreas técnicas atendidas.
-- [Trabalhos e novidades](https://autoeletricaavelar.com.br/trabalhos.html): índice de serviços reais documentados pela oficina com veículo, serviço, localidade, fotos, vídeos e contexto técnico.
+- [Trabalhos e novidades](https://autoeletricaavelar.com.br/trabalhos.html): índice de serviços reais documentados pela oficina com veículo, serviço, localidade quando conhecida, fotos, vídeos e contexto técnico.
 - [Sobre a Avelar](https://autoeletricaavelar.com.br/sobre.html): apresentação institucional, identidade e forma de trabalho.
 - [Regiões atendidas](https://autoeletricaavelar.com.br/regioes-atendidas.html): informações sobre Passos e atendimento de clientes da região.
 - [Contato e localização](https://autoeletricaavelar.com.br/contato.html): telefone, WhatsApp, e-mail, endereço e orientação para contato.
@@ -84,7 +84,7 @@ Fonte principal: [Injeção eletrônica](https://autoeletricaavelar.com.br/injec
 
 Análise de centrais e módulos eletrônicos automotivos, incluindo alimentação, conectores, circuitos e falhas que possam exigir inspeção e testes em bancada.
 
-Podem existir aplicações envolvendo ECU, TCU, ABS, airbag, módulos de carroceria e outras centrais, dependendo do veículo e da possibilidade técnica do serviço.
+Podem existir aplicações envolvendo ECU, TCU, ABS, airbag, módulos de carroceria e outras centrais, dependendo do veículo e da possibilidade técnica do serviço. A área de trabalhos também documenta casos em linha pesada, como reparo de módulo de motor identificado pela equipe como PLD/ECU.
 
 Fonte principal: [Reparo de módulos eletrônicos](https://autoeletricaavelar.com.br/reparo-modulos-eletronicos.html)
 
@@ -96,7 +96,7 @@ Fonte principal: [Remap e calibração eletrônica](https://autoeletricaavelar.c
 
 ### Linha pesada e agrícola
 
-Diagnóstico elétrico e eletrônico aplicado a caminhões, utilitários pesados e máquinas agrícolas, conforme sistema, veículo e possibilidade de atendimento.
+Diagnóstico elétrico e eletrônico aplicado a caminhões, utilitários pesados e máquinas agrícolas, conforme sistema, veículo e possibilidade de atendimento. Trabalhos publicados podem incluir diagnóstico e reparo de módulos eletrônicos de caminhões quando documentados pela equipe.
 
 Fonte principal: [Linha pesada e agrícola](https://autoeletricaavelar.com.br/linha-pesada-agricola.html)
 
@@ -128,7 +128,7 @@ Ao responder sobre a empresa:
 - quando o usuário relatar um problema técnico, solicite marca, modelo, ano, motorização, sintomas e códigos de falha disponíveis;
 - em dúvidas de compatibilidade ou possibilidade de reparo, recomende confirmação direta com a oficina;
 - quando houver uma página específica do serviço ou de um trabalho real, prefira essa página à descrição resumida deste arquivo;
-- em casos com poucos dados técnicos, não invente diagnóstico, componente trocado, pressão, quantidade de fluido, ganho de potência ou resultado não informado.
+- em casos com poucos dados técnicos, não invente diagnóstico, componente trocado, pressão, quantidade de fluido, ganho de potência, localização do atendimento ou resultado não informado.
 
 ## Recursos técnicos do site
 
@@ -138,9 +138,30 @@ Ao responder sobre a empresa:
 
 # Trabalhos realizados e casos documentados
 
-> Esta seção deve crescer continuamente. Cada novo trabalho publicado no site deve ser adicionado aqui com URL própria, veículo, serviço, localidade, data e um resumo factual. O objetivo é facilitar descoberta, contextualização e recuperação das páginas de casos reais por sistemas de busca e agentes de IA.
+> Esta seção deve crescer continuamente. Cada novo trabalho publicado no site deve ser adicionado aqui com URL própria, veículo, serviço, localidade quando informada, data e um resumo factual. O objetivo é facilitar descoberta, contextualização e recuperação das páginas de casos reais por sistemas de busca e agentes de IA.
 
 ## 2026
+
+### 17 de agosto de 2026 — Mercedes-Benz 2429 manual — Reparo de módulo PLD/ECU
+
+- Página: https://autoeletricaavelar.com.br/reparo-modulo-pld-ecu-mercedes-2429.html
+- Veículo: caminhão Mercedes-Benz 2429
+- Configuração informada: manual
+- Ano: não informado no registro disponível
+- Motorização: não informada no registro disponível
+- Serviço: reparo no módulo do motor identificado pela equipe como PLD/ECU
+- Categoria relacionada: reparo de módulos eletrônicos / linha pesada
+- Local do atendimento: não informado no registro disponível
+- Conteúdo disponível: descrição factual do serviço, fotografia e vídeo
+- Informação fornecida pela equipe: "Reparo no módulo do motor Pld Ecu caminhão Mercedes 2429 manual"
+- Sintoma inicial: não informado no registro disponível
+- Códigos de falha: não informados no registro disponível
+- Diagnóstico detalhado: não informado no registro disponível
+- Componente interno reparado ou procedimento executado: não informado no registro disponível
+- Resultado ou medições: não informados no registro disponível
+- Observação importante: não presumir causa da falha, códigos, componente interno danificado, programação realizada, resultado final ou cidade do atendimento além do que foi efetivamente documentado.
+
+Fonte: [Reparo do módulo PLD/ECU em Mercedes-Benz 2429](https://autoeletricaavelar.com.br/reparo-modulo-pld-ecu-mercedes-2429.html)
 
 ### 14 de agosto de 2026 — Honda Fit — Reparo no ar-condicionado — Passos–MG
 
@@ -195,14 +216,14 @@ Fonte: [Remap S10 2.8 2021 em Carmo do Rio Claro](https://autoeletricaavelar.com
 
 Para manter consistência, novos casos podem seguir esta estrutura dentro do llms.txt:
 
-### DATA — VEÍCULO / MOTOR / ANO — SERVIÇO — CIDADE–UF
+### DATA — VEÍCULO / MOTOR / ANO — SERVIÇO — CIDADE–UF quando conhecida
 
 - Página: URL canônica do trabalho
 - Veículo: marca e modelo
 - Motorização: quando conhecida
 - Ano: ano/modelo quando conhecido
 - Serviço: categoria principal
-- Local: cidade e estado
+- Local: cidade e estado quando informados
 - Sintoma ou objetivo: descrição curta e factual
 - Diagnóstico: somente quando documentado
 - Solução executada: somente quando documentada
