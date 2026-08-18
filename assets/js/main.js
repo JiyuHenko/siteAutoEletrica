@@ -2,7 +2,7 @@
   if (!document.querySelector('link[data-avelar-refinements]')) {
     const css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = 'assets/css/refinements.css?v=20260818-perf3';
+    css.href = 'assets/css/refinements.css?v=20260818-perf4';
     css.dataset.avelarRefinements = 'true';
     document.head.appendChild(css);
   }
@@ -57,7 +57,7 @@
     if (!item) return;
     const [src, alt] = item;
     const visual = img.closest('.visual');
-    const versionedSrc = `${src}?v=20260818-perf3`;
+    const versionedSrc = `${src}?v=20260818-perf4`;
 
     img.src = versionedSrc;
     img.alt = alt;
@@ -80,11 +80,27 @@
   const revealDeferred = img => {
     if (!img?.dataset.deferredSrc) return;
     const load = () => {
-      img.src = img.dataset.deferredSrc;
+      const requested = img.dataset.deferredSrc;
+      img.src = requested;
+
+      if (img.dataset.photoBg === 'true') {
+        const visual = img.closest('.visual');
+        if (visual) {
+          const absoluteSrc = new URL(requested, document.baseURI).href;
+          visual.style.setProperty('--photo-bg', `url("${absoluteSrc}")`);
+          visual.classList.add('has-photo');
+        }
+      }
+
       img.removeAttribute('data-deferred-src');
+      img.removeAttribute('data-defer-delay');
     };
-    setTimeout(load, 1800);
+
+    const delay = Math.max(0, Number(img.dataset.deferDelay || 0));
+    if (delay) setTimeout(load, delay);
+    else load();
   };
+
   if ('IntersectionObserver' in window) {
     const deferredObserver = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -133,7 +149,7 @@
     partner.className = 'bosch-partner';
     partner.dataset.boschPartner = 'true';
     partner.setAttribute('aria-label', 'Auto Elétrica Avelar — Parceiros Bosch');
-    partner.innerHTML = '<span>Parceiros</span><img data-deferred-src="assets/img/bosch-logo.png" alt="Bosch" width="400" height="91" decoding="async" fetchpriority="low">';
+    partner.innerHTML = '<span>Parceiros</span><img data-deferred-src="assets/img/bosch-logo.png" data-defer-delay="1800" alt="Bosch" width="400" height="91" decoding="async" fetchpriority="low">';
     proof.insertAdjacentElement('afterend', partner);
     const img = partner.querySelector('img[data-deferred-src]');
     if (img) revealDeferred(img);
@@ -178,7 +194,7 @@
     headerTicking = true;
     requestAnimationFrame(paintHeader);
   };
-  paintHeader();
+  requestAnimationFrame(paintHeader);
   addEventListener('scroll', requestHeaderPaint, { passive: true });
 
   if (!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
