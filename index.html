@@ -23,9 +23,9 @@
   <link rel="preload" as="image" href="assets/img/logo-transparente.png" fetchpriority="high">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
-  <link rel="stylesheet" href="assets/css/styles.css?v=20260818-perf1">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Manrope:wght@400;500;600;700;800&display=optional" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Manrope:wght@400;500;600;700;800&display=optional" rel="stylesheet"></noscript>
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260818-perf4">
 
   <!-- Critical homepage refinements are kept inline so the hero can render without waiting for a second stylesheet. -->
   <style>
@@ -37,8 +37,8 @@
     @media(max-width:680px){.hero-classic .hero-copy h1{max-width:9ch}.logo-scan-shell{width:100%}.diagnostic-rail{display:none}.scan-chip{right:8px;bottom:8px}.scan-chip small{display:none}.bosch-partner{gap:10px;margin-top:16px;padding:8px 11px 8px 9px}.bosch-partner>span{font-size:.62rem}.bosch-partner img{width:128px;max-height:30px}.float-wa{background:#0b7f45}}
     @media(prefers-reduced-motion:reduce){.scan-beam,.logo-scan-stage:after{animation:none}.scan-beam{top:50%;opacity:.7}}
   </style>
-  <link rel="stylesheet" href="assets/css/refinements.css?v=20260818-perf1" media="print" onload="this.media='all'" data-avelar-refinements>
-  <noscript><link rel="stylesheet" href="assets/css/refinements.css?v=20260818-perf1"></noscript>
+  <link rel="stylesheet" href="assets/css/refinements.css?v=20260818-perf4" media="print" onload="this.media='all'" data-avelar-refinements>
+  <noscript><link rel="stylesheet" href="assets/css/refinements.css?v=20260818-perf4"></noscript>
 
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":["AutoRepair","LocalBusiness"],"@id":"https://autoeletricaavelar.com.br/#empresa","name":"Auto Elétrica Avelar","alternateName":["Auto Eletrônica Avelar","Avelar Auto Elétrica"],"url":"https://autoeletricaavelar.com.br/","logo":"https://autoeletricaavelar.com.br/assets/img/logo-transparente-1200.png","image":"https://autoeletricaavelar.com.br/assets/img/og-auto-eletrica-avelar.jpg","telephone":"+553535211848","email":"autoeletricaavelar@hotmail.com","address":{"@type":"PostalAddress","streetAddress":"Rua dos Caiçaras, 53","addressLocality":"Passos","addressRegion":"MG","postalCode":"37901-518","addressCountry":"BR"},"areaServed":[{"@type":"City","name":"Passos"},{"@type":"AdministrativeArea","name":"Sudoeste de Minas Gerais"},{"@type":"AdministrativeArea","name":"Região da Serra da Canastra"}],"sameAs":["https://www.instagram.com/autoeletricaavelar_passos/","https://www.instagram.com/autoeletronicaavelarpassos/","https://www.facebook.com/autoeletricaavelar/"]}
@@ -78,7 +78,7 @@
         <div class="proof"><b>Diagnóstico técnico</b><b>Eletrônica avançada</b><b>Passos • Sudoeste de Minas</b></div>
         <div class="bosch-partner" data-bosch-partner aria-label="Auto Elétrica Avelar — Parceiros Bosch">
           <span>Parceiros</span>
-          <img data-deferred-src="assets/img/bosch-logo.png" alt="Bosch" width="400" height="91" decoding="async" fetchpriority="low">
+          <img data-deferred-src="assets/img/bosch-logo.png" data-defer-delay="1800" alt="Bosch" width="400" height="91" decoding="async" fetchpriority="low">
           <noscript><img src="assets/img/bosch-logo.png" alt="Bosch" width="400" height="91"></noscript>
         </div>
       </div>
@@ -131,7 +131,12 @@
 
   <section class="section paper">
     <div class="wrap feature">
-      <div><div class="visual has-photo" style="--photo-bg:url('assets/img/foto-reparo-modulo-eletronico-avelar.webp');aspect-ratio:3/4;min-height:0;height:auto"><img src="assets/img/foto-reparo-modulo-eletronico-avelar.webp" alt="Reparo e análise de módulo eletrônico automotivo na Auto Elétrica Avelar" loading="lazy" decoding="async" style="object-fit:contain;padding:0"></div></div>
+      <div>
+        <div class="visual has-photo" style="aspect-ratio:3/4;min-height:0;height:auto">
+          <img data-deferred-src="assets/img/foto-reparo-modulo-eletronico-avelar.webp" data-photo-bg="true" alt="Reparo e análise de módulo eletrônico automotivo na Auto Elétrica Avelar" width="1086" height="1448" loading="lazy" decoding="async" fetchpriority="low" style="object-fit:contain;padding:0">
+          <noscript><img src="assets/img/foto-reparo-modulo-eletronico-avelar.webp" alt="Reparo e análise de módulo eletrônico automotivo na Auto Elétrica Avelar" width="1086" height="1448" loading="lazy"></noscript>
+        </div>
+      </div>
       <div>
         <span class="eyebrow">Reparo de centrais</span>
         <h2>Quando o defeito vai para a bancada.</h2>
@@ -149,7 +154,10 @@
         <p>A oficina fica na Rua dos Caiçaras, 53. Clientes de outras cidades podem enviar os dados do veículo antes de se deslocar.</p>
         <div class="actions"><a class="btn blue" href="regioes-atendidas.html">Ver região</a><a class="btn outline" href="https://www.google.com/maps/search/?api=1&query=Auto+El%C3%A9trica+Avelar+Passos+MG" target="_blank" rel="noopener">Abrir rota</a></div>
       </div>
-      <div class="visual has-photo" style="--photo-bg:url('assets/img/foto-fachada-auto-eletrica-avelar-passos.webp');aspect-ratio:3/4;min-height:0;height:auto"><img src="assets/img/foto-fachada-auto-eletrica-avelar-passos.webp" alt="Fachada da Auto Elétrica Avelar em Passos MG" loading="lazy" decoding="async" style="object-fit:contain;padding:0"></div>
+      <div class="visual has-photo" style="aspect-ratio:3/4;min-height:0;height:auto">
+        <img data-deferred-src="assets/img/foto-fachada-auto-eletrica-avelar-passos.webp" data-photo-bg="true" alt="Fachada da Auto Elétrica Avelar em Passos MG" width="1086" height="966" loading="lazy" decoding="async" fetchpriority="low" style="object-fit:contain;padding:0">
+        <noscript><img src="assets/img/foto-fachada-auto-eletrica-avelar-passos.webp" alt="Fachada da Auto Elétrica Avelar em Passos MG" width="1086" height="966" loading="lazy"></noscript>
+      </div>
     </div>
   </section>
 </main>
@@ -171,6 +179,6 @@
 </footer>
 
 <a class="float-wa" href="https://wa.me/5535998695641?text=Ol%C3%A1%21%20Encontrei%20a%20Auto%20El%C3%A9trica%20Avelar%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20atendimento." target="_blank" rel="noopener">Solicitar atendimento</a>
-<script defer src="assets/js/main.js?v=20260818-perf1"></script>
+<script defer src="assets/js/main.js?v=20260818-perf4"></script>
 </body>
 </html>
