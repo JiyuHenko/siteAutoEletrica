@@ -2,7 +2,7 @@
   if (!document.querySelector('link[data-avelar-refinements]')) {
     const css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = 'assets/css/refinements.css?v=20260818-perf2';
+    css.href = 'assets/css/refinements.css?v=20260818-perf3';
     css.dataset.avelarRefinements = 'true';
     document.head.appendChild(css);
   }
@@ -57,7 +57,7 @@
     if (!item) return;
     const [src, alt] = item;
     const visual = img.closest('.visual');
-    const versionedSrc = `${src}?v=20260818-perf2`;
+    const versionedSrc = `${src}?v=20260818-perf3`;
 
     img.src = versionedSrc;
     img.alt = alt;
@@ -80,11 +80,10 @@
   const revealDeferred = img => {
     if (!img?.dataset.deferredSrc) return;
     const load = () => {
-      const requested = img.dataset.deferredSrc;
-      img.src = requested === 'assets/img/bosch-logo.png' ? 'assets/img/bosch-logo.svg' : requested;
+      img.src = img.dataset.deferredSrc;
       img.removeAttribute('data-deferred-src');
     };
-    setTimeout(load, 700);
+    setTimeout(load, 1800);
   };
   if ('IntersectionObserver' in window) {
     const deferredObserver = new IntersectionObserver(entries => {
@@ -134,8 +133,10 @@
     partner.className = 'bosch-partner';
     partner.dataset.boschPartner = 'true';
     partner.setAttribute('aria-label', 'Auto Elétrica Avelar — Parceiros Bosch');
-    partner.innerHTML = '<span>Parceiros</span><img src="assets/img/bosch-logo.svg" alt="Bosch" width="400" height="89" loading="lazy" decoding="async">';
+    partner.innerHTML = '<span>Parceiros</span><img data-deferred-src="assets/img/bosch-logo.png" alt="Bosch" width="400" height="91" decoding="async" fetchpriority="low">';
     proof.insertAdjacentElement('afterend', partner);
+    const img = partner.querySelector('img[data-deferred-src]');
+    if (img) revealDeferred(img);
   }
 
   const menuButton = document.querySelector('[data-menu]');
