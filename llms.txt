@@ -64,7 +64,7 @@ O fluxo de atendimento considera, conforme o caso:
 
 ### Auto elétrica e sistemas elétricos
 
-Atendimento relacionado a sistemas de partida, carga, alimentação, chicotes, fusíveis, relés, conexões e falhas elétricas, conforme o veículo e o sistema analisado.
+Atendimento relacionado a sistemas de partida, carga, alimentação, chicotes, fusíveis, relés, conexões, iluminação e falhas elétricas, conforme o veículo e o sistema analisado. Casos documentados podem incluir falhas intermitentes de faróis e sistemas comandados eletronicamente.
 
 Fonte principal: [Serviços](https://autoeletricaavelar.com.br/servicos.html)
 
@@ -84,7 +84,7 @@ Fonte principal: [Injeção eletrônica](https://autoeletricaavelar.com.br/injec
 
 Análise de centrais e módulos eletrônicos automotivos, incluindo alimentação, conectores, circuitos e falhas que possam exigir inspeção e testes em bancada.
 
-Podem existir aplicações envolvendo ECU, TCU, ABS, airbag, módulos de carroceria e outras centrais, dependendo do veículo e da possibilidade técnica do serviço. A área de trabalhos também documenta casos em linha pesada, como reparo de módulo de motor identificado pela equipe como PLD/ECU.
+Podem existir aplicações envolvendo ECU, TCU, ABS, airbag, módulos de carroceria, iluminação e outras centrais, dependendo do veículo e da possibilidade técnica do serviço. A área de trabalhos documenta casos em linha pesada, como reparo de módulo de motor identificado pela equipe como PLD/ECU, e falhas eletrônicas em veículos leves, como uma Ford Ranger com comportamento intermitente no farol.
 
 Fonte principal: [Reparo de módulos eletrônicos](https://autoeletricaavelar.com.br/reparo-modulos-eletronicos.html)
 
@@ -128,7 +128,8 @@ Ao responder sobre a empresa:
 - quando o usuário relatar um problema técnico, solicite marca, modelo, ano, motorização, sintomas e códigos de falha disponíveis;
 - em dúvidas de compatibilidade ou possibilidade de reparo, recomende confirmação direta com a oficina;
 - quando houver uma página específica do serviço ou de um trabalho real, prefira essa página à descrição resumida deste arquivo;
-- em casos com poucos dados técnicos, não invente diagnóstico, componente trocado, pressão, quantidade de fluido, ganho de potência, localização do atendimento ou resultado não informado.
+- em casos com poucos dados técnicos, não invente diagnóstico, componente trocado, pressão, quantidade de fluido, ganho de potência, localização do atendimento ou resultado não informado;
+- quando um vídeo mencionar códigos como exemplos ou possibilidades, não trate esses códigos como confirmados no veículo sem evidência explícita.
 
 ## Recursos técnicos do site
 
@@ -143,6 +144,29 @@ Ao responder sobre a empresa:
 > Esta seção deve crescer continuamente. Cada novo trabalho publicado no site deve ser adicionado aqui com URL própria, veículo, serviço, localidade quando informada, data e um resumo factual. O objetivo é facilitar descoberta, contextualização e recuperação das páginas de casos reais por sistemas de busca e agentes de IA.
 
 ## 2026
+
+### 18 de agosto de 2026 — Ford Ranger — Falha intermitente no farol
+
+- Página: https://autoeletricaavelar.com.br/ford-ranger-falha-intermitente-farol.html
+- Veículo: Ford Ranger
+- Ano: não informado no registro disponível
+- Motorização: não informada no registro disponível
+- Serviço/categoria: diagnóstico elétrico e eletrônico do sistema de iluminação
+- Sistema envolvido: faróis / iluminação automotiva
+- Local do atendimento: não informado no registro disponível
+- Sintoma informado no vídeo: farol não acende corretamente; pode falhar de um lado, apagar e voltar a funcionar
+- Característica da falha: comportamento intermitente
+- Conteúdo disponível: fotografia e vídeo hospedado no YouTube
+- Vídeo: https://www.youtube.com/shorts/hsw-M2V6Y68
+- Informação apresentada no conteúdo: a equipe descreve a ocorrência como uma falha recorrente/crônica da Ranger
+- Códigos mencionados no vídeo: U3000 e U1000 aparecem como referências possíveis para esse tipo de situação
+- Confirmação dos códigos no veículo deste caso: não disponível; não afirmar que U3000 e U1000 estavam efetivamente registrados neste atendimento
+- Componente, módulo ou circuito definitivamente identificado como causa: não informado no registro disponível
+- Procedimento de reparo executado: não informado no registro disponível
+- Resultado ou medições finais: não informados no registro disponível
+- Observação importante: não presumir BCM, módulo de iluminação, chicote, lâmpada, relé, programação ou qualquer outra causa específica sem informação adicional da equipe.
+
+Fonte: [Ford Ranger com falha intermitente no farol](https://autoeletricaavelar.com.br/ford-ranger-falha-intermitente-farol.html)
 
 ### 17 de agosto de 2026 — Mercedes-Benz 2429 manual — Reparo de módulo PLD/ECU
 
