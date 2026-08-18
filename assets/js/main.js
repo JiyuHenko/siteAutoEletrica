@@ -2,23 +2,41 @@
   if (!document.querySelector('link[data-avelar-refinements]')) {
     const css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = 'assets/css/refinements.css?v=20260817-post4';
+    css.href = 'assets/css/refinements.css?v=20260818-perf1';
     css.dataset.avelarRefinements = 'true';
     document.head.appendChild(css);
   }
 
+  /*
+   * Analytics stays available for event queuing immediately, but the heavy
+   * gtag library is fetched after the critical rendering window. This keeps
+   * measurement without making it compete with the first paint/LCP.
+   */
   const GA_ID = 'G-CNCG41V6B6';
-  if (!window.__avelarGaLoaded) {
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+  window.gtag('js', new Date());
+  window.gtag('config', GA_ID);
+
+  const loadAnalytics = () => {
+    if (window.__avelarGaLoaded) return;
     window.__avelarGaLoaded = true;
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
-    window.gtag('js', new Date());
-    window.gtag('config', GA_ID);
     const ga = document.createElement('script');
     ga.async = true;
     ga.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
     document.head.appendChild(ga);
-  }
+  };
+
+  const scheduleAnalytics = () => {
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(loadAnalytics, { timeout: 5000 });
+    } else {
+      setTimeout(loadAnalytics, 3500);
+    }
+  };
+  if (document.readyState === 'complete') scheduleAnalytics();
+  else addEventListener('load', scheduleAnalytics, { once: true });
+  ['pointerdown','keydown','touchstart'].forEach(type => addEventListener(type, loadAnalytics, { once: true, passive: true }));
 
   document.addEventListener('click', event => {
     const link = event.target.closest('a[href]');
@@ -30,6 +48,11 @@
     }
   });
 
+  /*
+   * Pages that still use the lightweight SVG placeholders are upgraded to
+   * real photography only once. The previous preload-probe caused the same
+   * WebP to be downloaded twice (versioned + unversioned).
+   */
   const photoMap = {
     'oficina.svg':['assets/img/foto-oficina-auto-eletrica-avelar-passos.webp','Área de serviço da Auto Elétrica Avelar em Passos MG'],
     'fachada.svg':['assets/img/foto-fachada-auto-eletrica-avelar-passos.webp','Fachada da Auto Elétrica Avelar em Passos MG'],
@@ -44,26 +67,48 @@
     const item = photoMap[img.getAttribute('src')?.split('/').pop()];
     if (!item) return;
     const [src, alt] = item;
-    const probe = new Image();
-    probe.onload = () => {
-      const visual = img.closest('.visual');
-      img.src = src;
-      img.alt = alt;
-      img.decoding = 'async';
-      ['width','height'].forEach(prop => img.style.setProperty(prop,'100%','important'));
-      img.style.setProperty('object-fit','contain','important');
-      img.style.setProperty('object-position','center','important');
-      img.style.setProperty('padding','0','important');
-      if (visual) {
-        visual.style.setProperty('--photo-bg', `url("${new URL(src, document.baseURI).href}")`);
-        visual.style.setProperty('aspect-ratio','3 / 4','important');
-        visual.style.setProperty('min-height','0','important');
-        visual.style.setProperty('height','auto','important');
-        visual.classList.add('has-photo');
-      }
-    };
-    probe.src = `${src}?v=20260813-photo-v3`;
+    const visual = img.closest('.visual');
+    const versionedSrc = `${src}?v=20260818-perf1`;
+
+    img.src = versionedSrc;
+    img.alt = alt;
+    img.decoding = 'async';
+    ['width','height'].forEach(prop => img.style.setProperty(prop,'100%','important'));
+    img.style.setProperty('object-fit','contain','important');
+    img.style.setProperty('object-position','center','important');
+    img.style.setProperty('padding','0','important');
+
+    if (visual) {
+      visual.style.setProperty('--photo-bg', `url("${new URL(versionedSrc, document.baseURI).href}")`);
+      visual.style.setProperty('aspect-ratio','3 / 4','important');
+      visual.style.setProperty('min-height','0','important');
+      visual.style.setProperty('height','auto','important');
+      visual.classList.add('has-photo');
+    }
   });
+
+  /* True lazy-loading for heavier credibility/partner artwork. */
+  const deferredImages = [...document.querySelectorAll('img[data-deferred-src]')];
+  const revealDeferred = img => {
+    if (!img?.dataset.deferredSrc || img.src) return;
+    const load = () => {
+      img.src = img.dataset.deferredSrc;
+      img.removeAttribute('data-deferred-src');
+    };
+    setTimeout(load, 700);
+  };
+  if ('IntersectionObserver' in window) {
+    const deferredObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        revealDeferred(entry.target);
+        deferredObserver.unobserve(entry.target);
+      });
+    }, { rootMargin: '0px', threshold: .05 });
+    deferredImages.forEach(img => deferredObserver.observe(img));
+  } else {
+    deferredImages.forEach(revealDeferred);
+  }
 
   const year = document.querySelector('[data-year]');
   if (year) year.textContent = new Date().getFullYear();
@@ -89,7 +134,7 @@
       credit.rel = 'noopener noreferrer';
       credit.setAttribute('aria-label', 'Site desenvolvido por Custom Mind Software Solutions');
       credit.title = 'Site desenvolvido por Custom Mind Software Solutions';
-      credit.innerHTML = '<img src="assets/img/custom-mind-logo.png" alt="Custom Mind Software Solutions" loading="lazy" decoding="async">';
+      credit.innerHTML = '<img src="assets/img/custom-mind-logo.png" alt="Custom Mind Software Solutions" width="190" height="55" loading="lazy" decoding="async">';
       copy.appendChild(credit);
     }
   }
@@ -100,8 +145,10 @@
     partner.className = 'bosch-partner';
     partner.dataset.boschPartner = 'true';
     partner.setAttribute('aria-label', 'Auto Elétrica Avelar — Parceiros Bosch');
-    partner.innerHTML = '<span>Parceiros</span><img src="assets/img/bosch-logo.png" alt="Bosch" loading="lazy" decoding="async">';
+    partner.innerHTML = '<span>Parceiros</span><img data-deferred-src="assets/img/bosch-logo.png" alt="Bosch" width="400" height="91" decoding="async" fetchpriority="low">';
     proof.insertAdjacentElement('afterend', partner);
+    const img = partner.querySelector('img[data-deferred-src]');
+    if (img) revealDeferred(img);
   }
 
   const menuButton = document.querySelector('[data-menu]');
@@ -133,9 +180,18 @@
   }
 
   const header = document.querySelector('.top');
-  const updateHeader = () => header?.classList.toggle('scrolled', scrollY > 10);
-  updateHeader();
-  addEventListener('scroll', updateHeader, {passive:true});
+  let headerTicking = false;
+  const paintHeader = () => {
+    header?.classList.toggle('scrolled', window.scrollY > 10);
+    headerTicking = false;
+  };
+  const requestHeaderPaint = () => {
+    if (headerTicking) return;
+    headerTicking = true;
+    requestAnimationFrame(paintHeader);
+  };
+  paintHeader();
+  addEventListener('scroll', requestHeaderPaint, { passive: true });
 
   if (!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
     document.documentElement.classList.add('motion');
@@ -143,7 +199,7 @@
       if (!entry.isIntersecting) return;
       entry.target.classList.add('seen');
       observer.unobserve(entry.target);
-    }), {threshold:.12});
+    }), { threshold: .12 });
     document.querySelectorAll('.section,.card,.service').forEach(el => observer.observe(el));
   }
 })();
