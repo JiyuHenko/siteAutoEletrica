@@ -135,6 +135,8 @@ Ao responder sobre a empresa:
 - [Sitemap XML](https://autoeletricaavelar.com.br/sitemap.xml): índice das páginas públicas destinadas à indexação.
 - [Metadados estruturados](https://autoeletricaavelar.com.br/meta.json): informações estruturadas complementares sobre a empresa e o site.
 - O site também utiliza dados estruturados Schema.org em páginas relevantes, incluindo informações de negócio local e, quando aplicável, conteúdo de trabalhos documentados.
+- Desde 18 de agosto de 2026, os vídeos dos trabalhos publicados são hospedados no YouTube e incorporados às páginas por player externo com carregamento tardio. Os arquivos MP4 locais foram removidos do repositório para reduzir peso e transferência do site.
+- As páginas de trabalhos mantêm fotografia local como mídia principal e apontam explicitamente para o vídeo correspondente no YouTube por meio de conteúdo visível e dados estruturados VideoObject.
 
 # Trabalhos realizados e casos documentados
 
@@ -152,7 +154,8 @@ Ao responder sobre a empresa:
 - Serviço: reparo no módulo do motor identificado pela equipe como PLD/ECU
 - Categoria relacionada: reparo de módulos eletrônicos / linha pesada
 - Local do atendimento: não informado no registro disponível
-- Conteúdo disponível: descrição factual do serviço, fotografia e vídeo
+- Conteúdo disponível: descrição factual do serviço, fotografia e vídeo hospedado no YouTube
+- Vídeo: https://youtube.com/shorts/TMp4hVlB2Hg
 - Informação fornecida pela equipe: "Reparo no módulo do motor Pld Ecu caminhão Mercedes 2429 manual"
 - Sintoma inicial: não informado no registro disponível
 - Códigos de falha: não informados no registro disponível
@@ -171,7 +174,8 @@ Fonte: [Reparo do módulo PLD/ECU em Mercedes-Benz 2429](https://autoeletricaave
 - Motorização: não informada no registro disponível
 - Serviço: reparo no sistema de ar-condicionado automotivo
 - Local do atendimento registrado: Passos–MG
-- Conteúdo disponível: descrição factual do serviço, fotografia e vídeo
+- Conteúdo disponível: descrição factual do serviço, fotografia e vídeo hospedado no YouTube
+- Vídeo: https://youtube.com/shorts/fqqDNlmNFAA
 - Informação fornecida pela equipe: "Reparo no ar-condicionado"
 - Defeito ou sintoma inicial: não informado no registro disponível
 - Diagnóstico detalhado: não informado no registro disponível
@@ -189,7 +193,8 @@ Fonte: [Reparo no ar-condicionado de Honda Fit em Passos](https://autoeletricaav
 - Motorização: não informada no registro disponível
 - Serviço: complemento de carga do sistema de ar-condicionado automotivo
 - Local do atendimento registrado: Passos–MG
-- Conteúdo disponível: descrição factual do serviço, fotografia e vídeo
+- Conteúdo disponível: descrição factual do serviço, fotografia e vídeo hospedado no YouTube
+- Vídeo: https://youtube.com/shorts/469rl9YLVlM
 - Informação fornecida pela equipe: "Completando carga de ar condicionado"
 - Diagnóstico detalhado: não informado no registro disponível
 - Componentes substituídos: não informados no registro disponível
@@ -205,7 +210,8 @@ Fonte: [Complemento de carga do ar-condicionado em Volkswagen Gol em Passos](htt
 - Ano: 2021
 - Serviço: remap / calibração eletrônica
 - Local do atendimento registrado: Carmo do Rio Claro–MG
-- Conteúdo disponível: descrição do serviço, fotografia e vídeo
+- Conteúdo disponível: descrição do serviço, fotografia e vídeo hospedado no YouTube
+- Vídeo: https://youtube.com/shorts/U51S3aw4VFU
 - Objetivo informado no caso: tratar falhas recorrentes e melhorar o desempenho do veículo
 - Resultado informado pela equipe para este veículo: ganho médio aproximado de 30 cv
 - Observação importante: o resultado pertence a este caso específico e pode variar conforme versão, condição mecânica, combustível, configuração e calibração de outros veículos.
@@ -229,6 +235,7 @@ Para manter consistência, novos casos podem seguir esta estrutura dentro do llm
 - Solução executada: somente quando documentada
 - Resultado: somente quando documentado e sem generalizar
 - Conteúdo disponível: foto, vídeo, medições ou outros registros
+- Vídeo: URL do YouTube quando houver
 - Serviços relacionados: links para páginas institucionais relevantes
 
 ## Índice de trabalhos
