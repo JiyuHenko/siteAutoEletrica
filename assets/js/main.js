@@ -2,16 +2,11 @@
   if (!document.querySelector('link[data-avelar-refinements]')) {
     const css = document.createElement('link');
     css.rel = 'stylesheet';
-    css.href = 'assets/css/refinements.css?v=20260818-perf1';
+    css.href = 'assets/css/refinements.css?v=20260818-perf2';
     css.dataset.avelarRefinements = 'true';
     document.head.appendChild(css);
   }
 
-  /*
-   * Analytics stays available for event queuing immediately, but the heavy
-   * gtag library is fetched after the critical rendering window. This keeps
-   * measurement without making it compete with the first paint/LCP.
-   */
   const GA_ID = 'G-CNCG41V6B6';
   window.dataLayer = window.dataLayer || [];
   window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
@@ -28,11 +23,10 @@
   };
 
   const scheduleAnalytics = () => {
-    if ('requestIdleCallback' in window) {
-      requestIdleCallback(loadAnalytics, { timeout: 5000 });
-    } else {
-      setTimeout(loadAnalytics, 3500);
-    }
+    setTimeout(() => {
+      if ('requestIdleCallback' in window) requestIdleCallback(loadAnalytics, { timeout: 2500 });
+      else loadAnalytics();
+    }, 6000);
   };
   if (document.readyState === 'complete') scheduleAnalytics();
   else addEventListener('load', scheduleAnalytics, { once: true });
@@ -48,11 +42,6 @@
     }
   });
 
-  /*
-   * Pages that still use the lightweight SVG placeholders are upgraded to
-   * real photography only once. The previous preload-probe caused the same
-   * WebP to be downloaded twice (versioned + unversioned).
-   */
   const photoMap = {
     'oficina.svg':['assets/img/foto-oficina-auto-eletrica-avelar-passos.webp','Área de serviço da Auto Elétrica Avelar em Passos MG'],
     'fachada.svg':['assets/img/foto-fachada-auto-eletrica-avelar-passos.webp','Fachada da Auto Elétrica Avelar em Passos MG'],
@@ -68,7 +57,7 @@
     if (!item) return;
     const [src, alt] = item;
     const visual = img.closest('.visual');
-    const versionedSrc = `${src}?v=20260818-perf1`;
+    const versionedSrc = `${src}?v=20260818-perf2`;
 
     img.src = versionedSrc;
     img.alt = alt;
@@ -87,12 +76,12 @@
     }
   });
 
-  /* True lazy-loading for heavier credibility/partner artwork. */
   const deferredImages = [...document.querySelectorAll('img[data-deferred-src]')];
   const revealDeferred = img => {
-    if (!img?.dataset.deferredSrc || img.src) return;
+    if (!img?.dataset.deferredSrc) return;
     const load = () => {
-      img.src = img.dataset.deferredSrc;
+      const requested = img.dataset.deferredSrc;
+      img.src = requested === 'assets/img/bosch-logo.png' ? 'assets/img/bosch-logo.svg' : requested;
       img.removeAttribute('data-deferred-src');
     };
     setTimeout(load, 700);
@@ -145,10 +134,8 @@
     partner.className = 'bosch-partner';
     partner.dataset.boschPartner = 'true';
     partner.setAttribute('aria-label', 'Auto Elétrica Avelar — Parceiros Bosch');
-    partner.innerHTML = '<span>Parceiros</span><img data-deferred-src="assets/img/bosch-logo.png" alt="Bosch" width="400" height="91" decoding="async" fetchpriority="low">';
+    partner.innerHTML = '<span>Parceiros</span><img src="assets/img/bosch-logo.svg" alt="Bosch" width="400" height="89" loading="lazy" decoding="async">';
     proof.insertAdjacentElement('afterend', partner);
-    const img = partner.querySelector('img[data-deferred-src]');
-    if (img) revealDeferred(img);
   }
 
   const menuButton = document.querySelector('[data-menu]');
