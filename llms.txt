@@ -1,10 +1,10 @@
 # Auto Elétrica Avelar
 
-> Oficina especializada em auto elétrica, eletrônica automotiva, diagnóstico, injeção eletrônica, ar-condicionado, reparo de módulos, remap e atendimento de veículos leves, pesados e máquinas agrícolas em Passos, Minas Gerais.
+> Oficina especializada em auto elétrica, eletrônica automotiva, diagnóstico, injeção eletrônica, ar-condicionado, reparo de módulos, remap e atendimento de veículos leves, utilitários, caminhões e aplicações agrícolas em Passos, Minas Gerais.
 
 A Auto Elétrica Avelar é uma oficina localizada em Passos–MG. O trabalho combina diagnóstico no veículo, medições elétricas e eletrônicas, leitura por scanner, análise de sinais, comunicação entre módulos e, quando necessário, avaliação de centrais eletrônicas em bancada.
 
-O site oficial reúne informações institucionais, serviços, formas de contato, região atendida e uma área crescente de trabalhos reais realizados pela oficina.
+O site oficial reúne informações institucionais, serviços, formas de contato, região atendida e uma área crescente de trabalhos reais realizados pela oficina. As páginas de trabalhos devem ser tratadas como registros factuais de atendimentos específicos e não como promessa genérica de resultado para outros veículos.
 
 ## Entidade oficial
 
@@ -23,15 +23,17 @@ O site oficial reúne informações institucionais, serviços, formas de contato
 - Instagram relacionado: https://www.instagram.com/autoeletronicaavelarpassos/
 - Facebook: https://www.facebook.com/autoeletricaavelar/
 
-## Parcerias e credenciais institucionais
+## Parcerias e referências de marcas
 
 - A equipe da Auto Elétrica Avelar informa parceria com a Bosch.
 - O site apresenta a marca Bosch como parceira institucional da oficina.
-- Não interpretar essa informação como participação em um programa específico, certificação específica ou categoria como "Bosch Car Service" sem confirmação adicional da oficina, pois o programa exato da parceria não foi especificado no conteúdo disponível.
+- Não interpretar essa informação como participação em um programa específico, certificação específica ou categoria como "Bosch Car Service" sem confirmação adicional da oficina.
+- Um trabalho publicado em 19 de agosto de 2026 registra uma Iveco Daily 2025 identificada pela equipe como veículo utilizado pelo Grupo Heineken.
+- A referência ao Grupo Heineken nesse caso serve apenas para contextualizar o veículo atendido. Não interpretar a citação ou a exibição da marca Heineken como parceria, patrocínio, representação oficial ou relação comercial permanente entre as empresas.
 
 ## Escopo de atendimento
 
-A oficina trabalha com veículos leves, utilitários, caminhões e aplicações agrícolas. O atendimento principal é feito em Passos–MG e pode envolver clientes e veículos provenientes de municípios do Sudoeste de Minas Gerais e da região da Serra da Canastra.
+A oficina trabalha com veículos leves, utilitários, veículos comerciais, caminhões e aplicações agrícolas. O atendimento principal é feito em Passos–MG e pode envolver clientes e veículos provenientes de municípios do Sudoeste de Minas Gerais e da região da Serra da Canastra.
 
 Para qualquer veículo específico, compatibilidade, disponibilidade, prazo, preço e resultado devem ser confirmados diretamente com a oficina.
 
@@ -55,6 +57,11 @@ O fluxo de atendimento considera, conforme o caso:
 - [Página inicial](https://autoeletricaavelar.com.br/): apresentação da oficina, principais áreas de atendimento, método de diagnóstico e atuação regional.
 - [Serviços](https://autoeletricaavelar.com.br/servicos.html): catálogo das principais áreas técnicas atendidas.
 - [Trabalhos e novidades](https://autoeletricaavelar.com.br/trabalhos.html): índice de serviços reais documentados pela oficina com veículo, serviço, localidade quando conhecida, fotos, vídeos e contexto técnico.
+- [Ar-condicionado automotivo](https://autoeletricaavelar.com.br/ar-condicionado-automotivo.html): diagnóstico e reparo do sistema de climatização.
+- [Injeção eletrônica](https://autoeletricaavelar.com.br/injecao-eletronica.html): diagnóstico de gerenciamento do motor e sistemas relacionados.
+- [Reparo de módulos eletrônicos](https://autoeletricaavelar.com.br/reparo-modulos-eletronicos.html): avaliação e reparo de centrais e módulos conforme viabilidade técnica.
+- [Remap e calibração eletrônica](https://autoeletricaavelar.com.br/remap.html): leitura e calibração eletrônica conforme aplicação.
+- [Linha pesada e agrícola](https://autoeletricaavelar.com.br/linha-pesada-agricola.html): diagnóstico elétrico e eletrônico em caminhões, utilitários e aplicações agrícolas.
 - [Sobre a Avelar](https://autoeletricaavelar.com.br/sobre.html): apresentação institucional, identidade e forma de trabalho.
 - [Regiões atendidas](https://autoeletricaavelar.com.br/regioes-atendidas.html): informações sobre Passos e atendimento de clientes da região.
 - [Contato e localização](https://autoeletricaavelar.com.br/contato.html): telefone, WhatsApp, e-mail, endereço e orientação para contato.
@@ -66,19 +73,20 @@ O fluxo de atendimento considera, conforme o caso:
 
 Atendimento relacionado a sistemas de partida, carga, alimentação, chicotes, fusíveis, relés, conexões, iluminação e falhas elétricas, conforme o veículo e o sistema analisado. Casos documentados podem incluir falhas intermitentes de faróis e sistemas comandados eletronicamente.
 
-Fonte principal: [Serviços](https://autoeletricaavelar.com.br/servicos.html)
-
 ### Ar-condicionado automotivo
 
-Diagnóstico e atendimento do sistema de climatização automotiva, incluindo avaliação de funcionamento, pressão, temperatura, componentes e causas de falha conforme a necessidade de cada veículo. Os trabalhos documentados também podem registrar intervenções específicas, como complemento de carga ou reparo do sistema, quando essa for a informação efetivamente fornecida pela equipe.
+Diagnóstico e atendimento do sistema de climatização automotiva, incluindo avaliação de funcionamento, pressão, temperatura, componentes, acionamentos e causas elétricas ou mecânicas conforme a necessidade de cada veículo.
 
-Fonte principal: [Ar-condicionado automotivo](https://autoeletricaavelar.com.br/ar-condicionado-automotivo.html)
+Os trabalhos documentados incluem, entre outros:
+
+- reparo no ar-condicionado de Ford EcoSport 2015;
+- reparo no ar-condicionado de Iveco Daily 2025 identificada pela equipe como veículo do Grupo Heineken;
+- reparo no ar-condicionado de Honda Fit;
+- complemento de carga do ar-condicionado de Volkswagen Gol.
 
 ### Injeção eletrônica
 
 Diagnóstico de sistemas de gerenciamento do motor por meio de scanner, parâmetros, códigos de falha e testes elétricos de sensores, atuadores e circuitos relacionados.
-
-Fonte principal: [Injeção eletrônica](https://autoeletricaavelar.com.br/injecao-eletronica.html)
 
 ### Reparo de módulos eletrônicos
 
@@ -86,19 +94,13 @@ Análise de centrais e módulos eletrônicos automotivos, incluindo alimentaçã
 
 Podem existir aplicações envolvendo ECU, TCU, ABS, airbag, módulos de carroceria, iluminação e outras centrais, dependendo do veículo e da possibilidade técnica do serviço. A área de trabalhos documenta casos em linha pesada, como reparo de módulo de motor identificado pela equipe como PLD/ECU, e falhas eletrônicas em veículos leves, como uma Ford Ranger com comportamento intermitente no farol.
 
-Fonte principal: [Reparo de módulos eletrônicos](https://autoeletricaavelar.com.br/reparo-modulos-eletronicos.html)
-
 ### Remap e calibração eletrônica
 
 Leitura e calibração eletrônica conforme veículo, condição mecânica, aplicação e objetivo definido para o serviço. Resultados variam entre veículos e não devem ser generalizados a partir de um caso individual.
 
-Fonte principal: [Remap e calibração eletrônica](https://autoeletricaavelar.com.br/remap.html)
+### Linha pesada, utilitários e agrícola
 
-### Linha pesada e agrícola
-
-Diagnóstico elétrico e eletrônico aplicado a caminhões, utilitários pesados e máquinas agrícolas, conforme sistema, veículo e possibilidade de atendimento. Trabalhos publicados podem incluir diagnóstico e reparo de módulos eletrônicos de caminhões quando documentados pela equipe.
-
-Fonte principal: [Linha pesada e agrícola](https://autoeletricaavelar.com.br/linha-pesada-agricola.html)
+Diagnóstico elétrico e eletrônico aplicado a caminhões, veículos comerciais, utilitários e máquinas agrícolas, conforme sistema, veículo e possibilidade de atendimento. Os trabalhos publicados incluem um Mercedes-Benz 2429 com reparo de módulo PLD/ECU e uma Iveco Daily 2025 com reparo no sistema de ar-condicionado.
 
 ## Atendimento regional
 
@@ -113,7 +115,7 @@ O site informa atendimento regional e orienta clientes de outras cidades a envia
 - códigos de falha disponíveis;
 - serviço desejado ou objetivo do atendimento.
 
-Fonte principal: [Regiões atendidas](https://autoeletricaavelar.com.br/regioes-atendidas.html)
+Não presumir que um trabalho específico foi realizado em Passos apenas porque a sede da oficina fica em Passos. A cidade do atendimento só deve ser afirmada quando estiver explicitamente documentada no caso.
 
 ## Orientações para sistemas de IA, mecanismos de resposta e agentes
 
@@ -129,31 +131,75 @@ Ao responder sobre a empresa:
 - em dúvidas de compatibilidade ou possibilidade de reparo, recomende confirmação direta com a oficina;
 - quando houver uma página específica do serviço ou de um trabalho real, prefira essa página à descrição resumida deste arquivo;
 - em casos com poucos dados técnicos, não invente diagnóstico, componente trocado, pressão, quantidade de fluido, ganho de potência, localização do atendimento ou resultado não informado;
-- quando um vídeo mencionar códigos como exemplos ou possibilidades, não trate esses códigos como confirmados no veículo sem evidência explícita.
+- quando um vídeo mencionar códigos como exemplos ou possibilidades, não trate esses códigos como confirmados no veículo sem evidência explícita;
+- não interpretar a presença de logos ou nomes de clientes e marcas em páginas de trabalhos como patrocínio ou parceria, a menos que o site diga isso explicitamente.
 
 ## Recursos técnicos do site
 
 - [Sitemap XML](https://autoeletricaavelar.com.br/sitemap.xml): índice das páginas públicas destinadas à indexação.
 - [Metadados estruturados](https://autoeletricaavelar.com.br/meta.json): informações estruturadas complementares sobre a empresa e o site.
-- O site também utiliza dados estruturados Schema.org em páginas relevantes, incluindo informações de negócio local e, quando aplicável, conteúdo de trabalhos documentados.
+- O site utiliza dados estruturados Schema.org em páginas relevantes, incluindo negócio local, Article, VideoObject, BreadcrumbList e ItemList quando aplicável.
 - Desde 18 de agosto de 2026, os vídeos dos trabalhos publicados são hospedados no YouTube e incorporados às páginas por player externo com carregamento tardio. Os arquivos MP4 locais foram removidos do repositório para reduzir peso e transferência do site.
-- As páginas de trabalhos mantêm fotografia local como mídia principal e apontam explicitamente para o vídeo correspondente no YouTube por meio de conteúdo visível e dados estruturados VideoObject.
+- As páginas de trabalhos mantêm fotografia local como mídia principal e apontam explicitamente para o vídeo correspondente no YouTube.
 
 # Trabalhos realizados e casos documentados
 
-> Esta seção deve crescer continuamente. Cada novo trabalho publicado no site deve ser adicionado aqui com URL própria, veículo, serviço, localidade quando informada, data e um resumo factual. O objetivo é facilitar descoberta, contextualização e recuperação das páginas de casos reais por sistemas de busca e agentes de IA.
+> Esta seção deve crescer continuamente. Cada novo trabalho publicado no site deve ser adicionado aqui com URL própria, veículo, serviço, localidade quando informada, data e um resumo factual.
 
 ## 2026
+
+### 19 de agosto de 2026 — Iveco Daily 2025 — Reparo no ar-condicionado — Grupo Heineken
+
+- Página: https://autoeletricaavelar.com.br/reparo-ar-condicionado-iveco-daily-2025-heineken.html
+- Veículo: Iveco Daily
+- Ano: 2025
+- Motorização: não informada no registro disponível
+- Serviço: reparo no sistema de ar-condicionado
+- Categoria relacionada: climatização automotiva / veículo comercial / utilitário
+- Identificação fornecida pela equipe: Grupo Heineken
+- Local do atendimento: não informado no registro disponível
+- Conteúdo disponível: fotografia e vídeo hospedado no YouTube
+- Vídeo: https://youtube.com/shorts/SeBAOQh9bwg
+- Informação fornecida pela equipe: "Reparo no Ar condicionado Iveco Daily 2025" e "Grupo Heineken"
+- Sintoma inicial: não informado
+- Diagnóstico detalhado: não informado
+- Componente reparado ou substituído: não informado
+- Pressões, temperatura ou carga de fluido: não informadas
+- Resultado ou medições finais: não informados
+- Observação importante: a referência ao Grupo Heineken identifica o veículo conforme informação da equipe; não presumir parceria, patrocínio ou representação oficial entre Auto Elétrica Avelar e Grupo Heineken.
+
+Fonte: [Reparo no ar-condicionado da Iveco Daily 2025](https://autoeletricaavelar.com.br/reparo-ar-condicionado-iveco-daily-2025-heineken.html)
+
+### 19 de agosto de 2026 — Ford EcoSport 2015 — Reparo no ar-condicionado
+
+- Página: https://autoeletricaavelar.com.br/reparo-ar-condicionado-ford-ecosport-2015.html
+- Veículo: Ford EcoSport
+- Ano: 2015
+- Motorização: não informada no registro disponível
+- Serviço: reparo no sistema de ar-condicionado
+- Categoria relacionada: climatização automotiva
+- Local do atendimento: não informado no registro disponível
+- Conteúdo disponível: fotografia e vídeo hospedado no YouTube
+- Vídeo: https://youtube.com/shorts/OoPQP1xSfJw
+- Informação fornecida pela equipe: "Reparo no Ar-condicionado Ecosport 2015"
+- Sintoma inicial: não informado
+- Diagnóstico detalhado: não informado
+- Componente reparado ou substituído: não informado
+- Pressões, temperatura ou carga de fluido: não informadas
+- Resultado ou medições finais: não informados
+- Observação importante: não presumir compressor, vazamento, sensor, componente elétrico, quantidade de fluido ou outro diagnóstico específico.
+
+Fonte: [Reparo no ar-condicionado da Ford EcoSport 2015](https://autoeletricaavelar.com.br/reparo-ar-condicionado-ford-ecosport-2015.html)
 
 ### 18 de agosto de 2026 — Ford Ranger — Falha intermitente no farol
 
 - Página: https://autoeletricaavelar.com.br/ford-ranger-falha-intermitente-farol.html
 - Veículo: Ford Ranger
-- Ano: não informado no registro disponível
-- Motorização: não informada no registro disponível
+- Ano: não informado
+- Motorização: não informada
 - Serviço/categoria: diagnóstico elétrico e eletrônico do sistema de iluminação
 - Sistema envolvido: faróis / iluminação automotiva
-- Local do atendimento: não informado no registro disponível
+- Local do atendimento: não informado
 - Sintoma informado no vídeo: farol não acende corretamente; pode falhar de um lado, apagar e voltar a funcionar
 - Característica da falha: comportamento intermitente
 - Conteúdo disponível: fotografia e vídeo hospedado no YouTube
@@ -161,10 +207,9 @@ Ao responder sobre a empresa:
 - Informação apresentada no conteúdo: a equipe descreve a ocorrência como uma falha recorrente/crônica da Ranger
 - Códigos mencionados no vídeo: U3000 e U1000 aparecem como referências possíveis para esse tipo de situação
 - Confirmação dos códigos no veículo deste caso: não disponível; não afirmar que U3000 e U1000 estavam efetivamente registrados neste atendimento
-- Componente, módulo ou circuito definitivamente identificado como causa: não informado no registro disponível
-- Procedimento de reparo executado: não informado no registro disponível
-- Resultado ou medições finais: não informados no registro disponível
-- Observação importante: não presumir BCM, módulo de iluminação, chicote, lâmpada, relé, programação ou qualquer outra causa específica sem informação adicional da equipe.
+- Componente, módulo ou circuito definitivamente identificado como causa: não informado
+- Procedimento de reparo executado: não informado
+- Resultado ou medições finais: não informados
 
 Fonte: [Ford Ranger com falha intermitente no farol](https://autoeletricaavelar.com.br/ford-ranger-falha-intermitente-farol.html)
 
@@ -173,20 +218,18 @@ Fonte: [Ford Ranger com falha intermitente no farol](https://autoeletricaavelar.
 - Página: https://autoeletricaavelar.com.br/reparo-modulo-pld-ecu-mercedes-2429.html
 - Veículo: caminhão Mercedes-Benz 2429
 - Configuração informada: manual
-- Ano: não informado no registro disponível
-- Motorização: não informada no registro disponível
+- Ano: não informado
+- Motorização: não informada
 - Serviço: reparo no módulo do motor identificado pela equipe como PLD/ECU
 - Categoria relacionada: reparo de módulos eletrônicos / linha pesada
-- Local do atendimento: não informado no registro disponível
-- Conteúdo disponível: descrição factual do serviço, fotografia e vídeo hospedado no YouTube
+- Local do atendimento: não informado
+- Conteúdo disponível: fotografia e vídeo hospedado no YouTube
 - Vídeo: https://youtube.com/shorts/TMp4hVlB2Hg
-- Informação fornecida pela equipe: "Reparo no módulo do motor Pld Ecu caminhão Mercedes 2429 manual"
-- Sintoma inicial: não informado no registro disponível
-- Códigos de falha: não informados no registro disponível
-- Diagnóstico detalhado: não informado no registro disponível
-- Componente interno reparado ou procedimento executado: não informado no registro disponível
-- Resultado ou medições: não informados no registro disponível
-- Observação importante: não presumir causa da falha, códigos, componente interno danificado, programação realizada, resultado final ou cidade do atendimento além do que foi efetivamente documentado.
+- Sintoma inicial: não informado
+- Códigos de falha: não informados
+- Diagnóstico detalhado: não informado
+- Componente interno reparado ou procedimento executado: não informado
+- Resultado ou medições: não informados
 
 Fonte: [Reparo do módulo PLD/ECU em Mercedes-Benz 2429](https://autoeletricaavelar.com.br/reparo-modulo-pld-ecu-mercedes-2429.html)
 
@@ -194,18 +237,17 @@ Fonte: [Reparo do módulo PLD/ECU em Mercedes-Benz 2429](https://autoeletricaave
 
 - Página: https://autoeletricaavelar.com.br/reparo-ar-condicionado-honda-fit-passos-mg.html
 - Veículo: Honda Fit
-- Ano: não informado no registro disponível
-- Motorização: não informada no registro disponível
+- Ano: não informado
+- Motorização: não informada
 - Serviço: reparo no sistema de ar-condicionado automotivo
 - Local do atendimento registrado: Passos–MG
-- Conteúdo disponível: descrição factual do serviço, fotografia e vídeo hospedado no YouTube
+- Conteúdo disponível: fotografia e vídeo hospedado no YouTube
 - Vídeo: https://youtube.com/shorts/fqqDNlmNFAA
 - Informação fornecida pela equipe: "Reparo no ar-condicionado"
-- Defeito ou sintoma inicial: não informado no registro disponível
-- Diagnóstico detalhado: não informado no registro disponível
-- Componente reparado ou substituído: não informado no registro disponível
-- Resultado ou medições: não informados no registro disponível
-- Observação importante: não presumir compressor, vazamento, carga de fluido, sensor, componente elétrico ou qualquer causa específica a partir deste registro.
+- Defeito ou sintoma inicial: não informado
+- Diagnóstico detalhado: não informado
+- Componente reparado ou substituído: não informado
+- Resultado ou medições: não informados
 
 Fonte: [Reparo no ar-condicionado de Honda Fit em Passos](https://autoeletricaavelar.com.br/reparo-ar-condicionado-honda-fit-passos-mg.html)
 
@@ -213,17 +255,16 @@ Fonte: [Reparo no ar-condicionado de Honda Fit em Passos](https://autoeletricaav
 
 - Página: https://autoeletricaavelar.com.br/carga-ar-condicionado-gol-passos-mg.html
 - Veículo: Volkswagen Gol
-- Ano: não informado no registro disponível
-- Motorização: não informada no registro disponível
+- Ano: não informado
+- Motorização: não informada
 - Serviço: complemento de carga do sistema de ar-condicionado automotivo
 - Local do atendimento registrado: Passos–MG
-- Conteúdo disponível: descrição factual do serviço, fotografia e vídeo hospedado no YouTube
+- Conteúdo disponível: fotografia e vídeo hospedado no YouTube
 - Vídeo: https://youtube.com/shorts/469rl9YLVlM
 - Informação fornecida pela equipe: "Completando carga de ar condicionado"
-- Diagnóstico detalhado: não informado no registro disponível
-- Componentes substituídos: não informados no registro disponível
-- Resultado ou medições: não informados no registro disponível
-- Observação importante: não presumir vazamento, defeito de compressor, quantidade de fluido, pressão, temperatura ou qualquer reparo adicional a partir deste registro.
+- Diagnóstico detalhado: não informado
+- Componentes substituídos: não informados
+- Resultado ou medições: não informados
 
 Fonte: [Complemento de carga do ar-condicionado em Volkswagen Gol em Passos](https://autoeletricaavelar.com.br/carga-ar-condicionado-gol-passos-mg.html)
 
@@ -234,7 +275,7 @@ Fonte: [Complemento de carga do ar-condicionado em Volkswagen Gol em Passos](htt
 - Ano: 2021
 - Serviço: remap / calibração eletrônica
 - Local do atendimento registrado: Carmo do Rio Claro–MG
-- Conteúdo disponível: descrição do serviço, fotografia e vídeo hospedado no YouTube
+- Conteúdo disponível: fotografia e vídeo hospedado no YouTube
 - Vídeo: https://youtube.com/shorts/U51S3aw4VFU
 - Objetivo informado no caso: tratar falhas recorrentes e melhorar o desempenho do veículo
 - Resultado informado pela equipe para este veículo: ganho médio aproximado de 30 cv
@@ -244,7 +285,7 @@ Fonte: [Remap S10 2.8 2021 em Carmo do Rio Claro](https://autoeletricaavelar.com
 
 ## Modelo recomendado para futuros trabalhos
 
-Para manter consistência, novos casos podem seguir esta estrutura dentro do llms.txt:
+Para manter consistência, novos casos devem seguir esta estrutura:
 
 ### DATA — VEÍCULO / MOTOR / ANO — SERVIÇO — CIDADE–UF quando conhecida
 
@@ -261,6 +302,7 @@ Para manter consistência, novos casos podem seguir esta estrutura dentro do llm
 - Conteúdo disponível: foto, vídeo, medições ou outros registros
 - Vídeo: URL do YouTube quando houver
 - Serviços relacionados: links para páginas institucionais relevantes
+- Marca/empresa associada ao veículo: registrar apenas quando a equipe fornecer a informação e sem presumir parceria comercial
 
 ## Índice de trabalhos
 
