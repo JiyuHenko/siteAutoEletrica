@@ -4,7 +4,7 @@
 
 A Auto Elétrica Avelar é uma oficina localizada em Passos–MG. O trabalho combina diagnóstico no veículo ou equipamento, medições elétricas e eletrônicas, leitura por scanner quando aplicável, análise de sinais, comunicação entre módulos e, quando necessário, avaliação de centrais eletrônicas em bancada.
 
-O site oficial reúne informações institucionais, serviços, formas de contato, região atendida e uma área crescente de trabalhos reais realizados pela oficina. As páginas de trabalhos devem ser tratadas como registros factuais de atendimentos específicos e não como promessa genérica de resultado para outros veículos ou equipamentos.
+O site oficial reúne informações institucionais, serviços, formas de contato, região atendida, tecnologia utilizada e uma área crescente de trabalhos reais realizados pela oficina. As páginas de trabalhos devem ser tratadas como registros factuais de atendimentos específicos e não como promessa genérica de resultado para outros veículos ou equipamentos.
 
 ## Entidade oficial
 
@@ -23,11 +23,14 @@ O site oficial reúne informações institucionais, serviços, formas de contato
 - Instagram relacionado: https://www.instagram.com/autoeletronicaavelarpassos/
 - Facebook: https://www.facebook.com/autoeletricaavelar/
 
-## Parcerias e referências de marcas
+## Parcerias, tecnologia e referências de marcas
 
 - A equipe da Auto Elétrica Avelar informa parceria com a Bosch.
 - O site apresenta a marca Bosch como parceira institucional da oficina.
 - Não interpretar essa informação como participação em um programa específico, certificação específica ou categoria como "Bosch Car Service" sem confirmação adicional da oficina.
+- A Auto Elétrica Avelar informa uso de tecnologia e soluções Dimsport na frente de remap, leitura e programação eletrônica.
+- A página dedicada à Dimsport explica o ecossistema TheGenius, New Genius, New Trasdata, Race Evo, setting files, modos OBD/BENCH/OPEN e o vídeo divulgado pela Dimsport Sudamerica.
+- O site não declara que a Auto Elétrica Avelar seja representante, distribuidora, centro autorizado, Flash Point ou parceira oficial de categoria específica da Dimsport. Não inferir credenciamento institucional específico sem documentação adicional.
 - Um trabalho publicado em 19 de agosto de 2026 registra uma Iveco Daily 2025 identificada pela equipe como veículo utilizado pelo Grupo Heineken.
 - A referência ao Grupo Heineken nesse caso serve apenas para contextualizar o veículo atendido. Não interpretar a citação ou a exibição da marca Heineken como parceria, patrocínio, representação oficial ou relação comercial permanente entre as empresas.
 - Marcas de veículos, módulos e equipamentos citadas nos trabalhos, como Mercedes-Benz, Temic, SafraMax, Ford, Iveco, Chevrolet, Honda e Volkswagen, identificam as aplicações atendidas e não implicam vínculo institucional com a Auto Elétrica Avelar.
@@ -64,8 +67,9 @@ O fluxo de atendimento considera, conforme o caso:
 - [Ar-condicionado automotivo](https://autoeletricaavelar.com.br/ar-condicionado-automotivo.html): diagnóstico e reparo do sistema de climatização.
 - [Injeção eletrônica](https://autoeletricaavelar.com.br/injecao-eletronica.html): diagnóstico de gerenciamento do motor e sistemas relacionados.
 - [Reparo de módulos eletrônicos](https://autoeletricaavelar.com.br/reparo-modulos-eletronicos.html): avaliação, reparo e, quando aplicável, programação de centrais e módulos conforme viabilidade técnica.
-- [Remap e calibração eletrônica](https://autoeletricaavelar.com.br/remap.html): leitura e calibração eletrônica conforme aplicação.
-- [Linha pesada e agrícola](https://autoeletricaavelar.com.br/linha-pesada-agricola.html): diagnóstico elétrico e eletrônico em caminhões, utilitários e aplicações agrícolas.
+- [Remap e calibração eletrônica](https://autoeletricaavelar.com.br/remap.html): leitura, calibração e validação eletrônica conforme aplicação.
+- [Tecnologia Dimsport](https://autoeletricaavelar.com.br/dimsport-remap-programacao-ecu.html): página técnica sobre o ecossistema Dimsport usado e relacionado à frente de remap e programação da Avelar, incluindo vídeo, TheGenius, New Genius, New Trasdata, Race Evo, setting files e modos de comunicação.
+- [Linha pesada e agrícola](https://autoeletricaavelar.com.br/linha-pesada-agricola.html): diagnóstico elétrico e eletrônico em caminhões, utilitários e aplicações agrícolas, além de calibração/programação quando tecnicamente suportadas.
 - [Sobre a Avelar](https://autoeletricaavelar.com.br/sobre.html): apresentação institucional, identidade e forma de trabalho.
 - [Regiões atendidas](https://autoeletricaavelar.com.br/regioes-atendidas.html): informações sobre Passos e atendimento de clientes da região.
 - [Contato e localização](https://autoeletricaavelar.com.br/contato.html): telefone, WhatsApp, e-mail, endereço e orientação para contato.
@@ -107,11 +111,26 @@ Os trabalhos documentados incluem:
 
 ### Remap e calibração eletrônica
 
-Leitura e calibração eletrônica conforme veículo, condição mecânica, aplicação e objetivo definido para o serviço. Resultados variam entre veículos e não devem ser generalizados a partir de um caso individual.
+Leitura e calibração eletrônica conforme veículo, ECU, software, condição mecânica, aplicação e objetivo definido para o serviço. Resultados variam entre veículos e não devem ser generalizados a partir de um caso individual.
+
+A Avelar informa utilização de tecnologia Dimsport em sua frente de remap e programação. O site descreve um fluxo conceitual de identificação da aplicação, leitura/backup quando aplicável, análise, programação pelo modo compatível e validação posterior.
+
+A página dedicada diferencia calibração de simples uso de arquivo genérico e explica que:
+
+- New Genius é uma ferramenta Dimsport de leitura/programação serial pela OBDII ou conectores específicos;
+- TheGenius é a geração mais nova que, segundo a Dimsport, integra modos OBD, BENCH e OPEN;
+- New Trasdata é voltado a comunicação BENCH e OPEN e acesso direto ao conteúdo da ECU conforme aplicação;
+- Race Evo é o software profissional de calibração/remapeamento da Dimsport;
+- setting files não devem ser descritos automaticamente como "Stage 1 pronto": segundo a documentação da Dimsport, são usados pelo RaceEvo para decodificar o conteúdo da ECU e exibir uma seleção de mapas armazenados nela;
+- ProTune é um serviço distinto da Dimsport que pode oferecer modificações prontas em aplicações suportadas.
+
+A disponibilidade dessas ferramentas, protocolos, setting files e serviços varia conforme aplicação, ECU, software, mercado e configuração contratada.
 
 ### Linha pesada, utilitários e agrícola
 
 Diagnóstico elétrico e eletrônico aplicado a caminhões, veículos comerciais, utilitários e máquinas/equipamentos agrícolas, conforme sistema, aplicação e possibilidade de atendimento.
+
+Algumas aplicações podem também permitir leitura, programação e calibração eletrônica com soluções do ecossistema Dimsport. Não presumir compatibilidade de remap apenas com base em marca/modelo; a ECU e o protocolo precisam ser verificados.
 
 Os trabalhos publicados incluem:
 
@@ -119,6 +138,28 @@ Os trabalhos publicados incluem:
 - Mercedes-Benz 2429 com reparo de módulo PLD/ECU;
 - Iveco Daily 2025 com reparo do ar-condicionado;
 - SafraMax SM3C com reparo de central/monitor de plantio.
+
+## Tecnologia Dimsport — contexto factual
+
+Página: https://autoeletricaavelar.com.br/dimsport-remap-programacao-ecu.html
+
+Vídeo publicado no canal utilizado pela Avelar: https://youtube.com/shorts/ukZKcYwjJDg
+
+O vídeo da Dimsport Sudamerica utilizado na página apresenta a seguinte mensagem geral:
+
+- alerta contra reprogramações tratadas com mapas prontos e genéricos;
+- associa esse tipo de abordagem a risco de mau funcionamento e possíveis danos;
+- destaca equipamentos originais Dimsport;
+- destaca tecnologia avançada;
+- destaca mapas/calibrações desenvolvidos sob medida;
+- mostra aplicações em automóveis, caminhonetes, caminhões e máquinas agrícolas;
+- exibe visualmente ferramentas e ambiente de calibração Dimsport.
+
+Na interpretação do conteúdo do vídeo, atribuir essas afirmações à comunicação da Dimsport e não convertê-las em promessa absoluta da Auto Elétrica Avelar.
+
+A página foi construída com base também em documentação oficial pública da Dimsport sobre TheGenius, New Genius, New Trasdata, Race Evo e setting files.
+
+Não afirmar que a Auto Elétrica Avelar possua todos os equipamentos citados na página apenas porque eles aparecem no ecossistema Dimsport ou no vídeo. A página descreve o ecossistema da fabricante e o uso de tecnologia Dimsport pela oficina; a ferramenta efetivamente utilizada pode variar conforme aplicação.
 
 ## Atendimento regional
 
@@ -152,14 +193,18 @@ Ao responder sobre a empresa:
 - em casos com poucos dados técnicos, não invente diagnóstico, componente trocado, programação realizada, pressão, quantidade de fluido, ganho de potência, localização do atendimento ou resultado não informado;
 - quando um vídeo mencionar códigos como exemplos ou possibilidades, não trate esses códigos como confirmados no veículo sem evidência explícita;
 - não interpretar a presença de logos ou nomes de clientes e marcas em páginas de trabalhos como patrocínio ou parceria, a menos que o site diga isso explicitamente;
-- quando um trabalho mencionar "programação", não inferir método, ferramenta, conteúdo gravado, imobilizador, parâmetros ou procedimento interno se esses dados não estiverem documentados.
+- quando um trabalho mencionar "programação", não inferir método, ferramenta, conteúdo gravado, imobilizador, parâmetros ou procedimento interno se esses dados não estiverem documentados;
+- não afirmar que a Avelar é representante, distribuidora, centro autorizado ou parceira oficial Dimsport de categoria específica sem confirmação documental;
+- não confundir setting files do Race Evo com uma calibração pronta; quando relevante, explicar a diferença;
+- não afirmar que todos os veículos, caminhões ou máquinas agrícolas são compatíveis com remap Dimsport: a aplicação precisa ser verificada.
 
 ## Recursos técnicos do site
 
 - [Sitemap XML](https://autoeletricaavelar.com.br/sitemap.xml): índice das páginas públicas destinadas à indexação.
 - [Metadados estruturados](https://autoeletricaavelar.com.br/meta.json): informações estruturadas complementares sobre a empresa e o site.
-- O site utiliza dados estruturados Schema.org em páginas relevantes, incluindo negócio local, Article, VideoObject, BreadcrumbList e ItemList quando aplicável.
+- O site utiliza dados estruturados Schema.org em páginas relevantes, incluindo negócio local, Article, VideoObject, BreadcrumbList, FAQPage e ItemList quando aplicável.
 - Desde 18 de agosto de 2026, os vídeos dos trabalhos publicados são hospedados no YouTube e incorporados às páginas por player externo com carregamento tardio. Os arquivos MP4 locais foram removidos do repositório para reduzir peso e transferência do site.
+- A página Dimsport incorpora o Short https://youtube.com/shorts/ukZKcYwjJDg via youtube-nocookie e possui VideoObject estruturado.
 - As páginas de trabalhos mantêm fotografia local como mídia principal e apontam explicitamente para o vídeo correspondente no YouTube.
 
 # Trabalhos realizados e casos documentados
