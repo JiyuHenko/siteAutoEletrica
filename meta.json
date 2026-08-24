@@ -39,13 +39,29 @@
     },
     {
       "@type": "ItemList",
-      "name": "Principais serviços da Auto Elétrica Avelar",
+      "name": "Principais serviços e tecnologias da Auto Elétrica Avelar",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "url": "https://autoeletricaavelar.com.br/ar-condicionado-automotivo.html", "name": "Ar-condicionado automotivo"},
         {"@type": "ListItem", "position": 2, "url": "https://autoeletricaavelar.com.br/injecao-eletronica.html", "name": "Injeção eletrônica"},
         {"@type": "ListItem", "position": 3, "url": "https://autoeletricaavelar.com.br/reparo-modulos-eletronicos.html", "name": "Reparo de módulos"},
-        {"@type": "ListItem", "position": 4, "url": "https://autoeletricaavelar.com.br/remap.html", "name": "Remap e performance"},
-        {"@type": "ListItem", "position": 5, "url": "https://autoeletricaavelar.com.br/linha-pesada-agricola.html", "name": "Linha pesada e agrícola"}
+        {"@type": "ListItem", "position": 4, "url": "https://autoeletricaavelar.com.br/remap.html", "name": "Remap e calibração eletrônica"},
+        {"@type": "ListItem", "position": 5, "url": "https://autoeletricaavelar.com.br/dimsport-remap-programacao-ecu.html", "name": "Tecnologia Dimsport para remap e programação de ECU"},
+        {"@type": "ListItem", "position": 6, "url": "https://autoeletricaavelar.com.br/linha-pesada-agricola.html", "name": "Linha pesada e agrícola"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://autoeletricaavelar.com.br/dimsport-remap-programacao-ecu.html#page",
+      "url": "https://autoeletricaavelar.com.br/dimsport-remap-programacao-ecu.html",
+      "name": "Tecnologia Dimsport para Remap e Programação de ECU",
+      "description": "Página técnica sobre o ecossistema Dimsport aplicado aos serviços de remap, leitura e programação eletrônica da Auto Elétrica Avelar.",
+      "inLanguage": "pt-BR",
+      "about": [
+        {"@type": "Thing", "name": "Dimsport"},
+        {"@type": "Thing", "name": "New Genius"},
+        {"@type": "Thing", "name": "TheGenius"},
+        {"@type": "Thing", "name": "New Trasdata"},
+        {"@type": "Thing", "name": "Race Evo"}
       ]
     },
     {
@@ -65,5 +81,5 @@
       ]
     }
   ],
-  "dateModified": "2026-08-21"
+  "dateModified": "2026-08-24"
 }
