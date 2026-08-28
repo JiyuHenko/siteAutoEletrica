@@ -37,7 +37,7 @@ O site oficial reúne informações institucionais, serviços, formas de contato
 
 ## Escopo de atendimento
 
-A oficina trabalha com veículos leves, utilitários, veículos comerciais, caminhões e aplicações agrícolas. Os casos publicados também documentam atendimento a centrais eletrônicas e equipamentos de monitoramento agrícola.
+A oficina trabalha com veículos leves, utilitários, veículos comerciais, caminhões e aplicações agrícolas. Os casos publicados também documentam atendimento a centrais eletrônicas, equipamentos de monitoramento agrícola e climatização de caminhões.
 
 O atendimento principal é feito em Passos–MG e pode envolver clientes, veículos e equipamentos provenientes de municípios do Sudoeste de Minas Gerais e da região da Serra da Canastra.
 
@@ -69,7 +69,7 @@ O fluxo de atendimento considera, conforme o caso:
 - [Reparo de módulos eletrônicos](https://autoeletricaavelar.com.br/reparo-modulos-eletronicos.html): avaliação, reparo e, quando aplicável, programação de centrais e módulos conforme viabilidade técnica.
 - [Remap e calibração eletrônica](https://autoeletricaavelar.com.br/remap.html): leitura, calibração e validação eletrônica conforme aplicação.
 - [Tecnologia Dimsport](https://autoeletricaavelar.com.br/dimsport-remap-programacao-ecu.html): página técnica sobre o ecossistema Dimsport usado e relacionado à frente de remap e programação da Avelar, incluindo vídeo, TheGenius, New Genius, New Trasdata, Race Evo, setting files e modos de comunicação.
-- [Linha pesada e agrícola](https://autoeletricaavelar.com.br/linha-pesada-agricola.html): diagnóstico elétrico e eletrônico em caminhões, utilitários e aplicações agrícolas, além de calibração/programação quando tecnicamente suportadas.
+- [Linha pesada e agrícola](https://autoeletricaavelar.com.br/linha-pesada-agricola.html): diagnóstico elétrico e eletrônico em caminhões, utilitários e aplicações agrícolas, climatização de veículos de trabalho e calibração/programação quando tecnicamente suportadas.
 - [Sobre a Avelar](https://autoeletricaavelar.com.br/sobre.html): apresentação institucional, identidade e forma de trabalho.
 - [Regiões atendidas](https://autoeletricaavelar.com.br/regioes-atendidas.html): informações sobre Passos e atendimento de clientes da região.
 - [Contato e localização](https://autoeletricaavelar.com.br/contato.html): telefone, WhatsApp, e-mail, endereço e orientação para contato.
@@ -87,6 +87,8 @@ Diagnóstico e atendimento do sistema de climatização automotiva, incluindo av
 
 Os trabalhos documentados incluem, entre outros:
 
+- reparo no ar-condicionado de Volkswagen Constellation 26.280;
+- reparo no ar-condicionado de Chevrolet Spin 2023 com localidade informada como São João Batista do Glória–MG;
 - reparo no ar-condicionado de Ford EcoSport 2015;
 - reparo no ar-condicionado de Iveco Daily 2025 identificada pela equipe como veículo do Grupo Heineken;
 - reparo no ar-condicionado de Honda Fit;
@@ -128,12 +130,13 @@ A disponibilidade dessas ferramentas, protocolos, setting files e serviços vari
 
 ### Linha pesada, utilitários e agrícola
 
-Diagnóstico elétrico e eletrônico aplicado a caminhões, veículos comerciais, utilitários e máquinas/equipamentos agrícolas, conforme sistema, aplicação e possibilidade de atendimento.
+Diagnóstico elétrico e eletrônico aplicado a caminhões, veículos comerciais, utilitários e máquinas/equipamentos agrícolas, conforme sistema, aplicação e possibilidade de atendimento. A oficina também documenta serviços de climatização em veículos de trabalho.
 
 Algumas aplicações podem também permitir leitura, programação e calibração eletrônica com soluções do ecossistema Dimsport. Não presumir compatibilidade de remap apenas com base em marca/modelo; a ECU e o protocolo precisam ser verificados.
 
 Os trabalhos publicados incluem:
 
+- Volkswagen Constellation 26.280 com reparo do ar-condicionado;
 - Mercedes-Benz 1933 com reparo e programação de módulo PLD Temic;
 - Mercedes-Benz 2429 com reparo de módulo PLD/ECU;
 - Iveco Daily 2025 com reparo do ar-condicionado;
@@ -205,13 +208,56 @@ Ao responder sobre a empresa:
 - O site utiliza dados estruturados Schema.org em páginas relevantes, incluindo negócio local, Article, VideoObject, BreadcrumbList, FAQPage e ItemList quando aplicável.
 - Desde 18 de agosto de 2026, os vídeos dos trabalhos publicados são hospedados no YouTube e incorporados às páginas por player externo com carregamento tardio. Os arquivos MP4 locais foram removidos do repositório para reduzir peso e transferência do site.
 - A página Dimsport incorpora o Short https://youtube.com/shorts/ukZKcYwjJDg via youtube-nocookie e possui VideoObject estruturado.
-- As páginas de trabalhos mantêm fotografia local como mídia principal e apontam explicitamente para o vídeo correspondente no YouTube.
+- As páginas de trabalhos usam fotografia local quando disponível; quando a fotografia ainda não está publicada no repositório, podem usar a miniatura do vídeo do YouTube como imagem de apoio sem inventar conteúdo visual adicional.
 
 # Trabalhos realizados e casos documentados
 
 > Esta seção deve crescer continuamente. Cada novo trabalho publicado no site deve ser adicionado aqui com URL própria, veículo/equipamento, serviço, localidade quando informada, data e um resumo factual.
 
 ## 2026
+
+### 24 de agosto de 2026 — Volkswagen Constellation 26.280 — Reparo no ar-condicionado
+
+- Página: https://autoeletricaavelar.com.br/reparo-ar-condicionado-volkswagen-constellation-26280.html
+- Veículo: Volkswagen Constellation 26.280
+- Ano: não informado no registro disponível
+- Motorização: não informada no registro disponível
+- Serviço: reparo no sistema de ar-condicionado
+- Categoria relacionada: climatização / linha pesada / caminhão
+- Local do atendimento: não informado no registro disponível
+- Conteúdo disponível: vídeo hospedado no YouTube; a página usa a miniatura do vídeo como imagem de apoio enquanto não há fotografia local publicada no repositório
+- Vídeo: https://youtube.com/shorts/JvNNPauY8AI
+- Informação fornecida pela equipe: "Reparo Ar-condicionado Constellation 26.280"
+- Sintoma inicial: não informado
+- Diagnóstico detalhado: não informado
+- Componente reparado ou substituído: não informado
+- Pressões, temperatura ou carga de fluido: não informadas
+- Resultado ou medições finais: não informados
+- Observação importante: não presumir ano, motorização, compressor, vazamento, quantidade de fluido, componente elétrico ou causa específica sem documentação adicional.
+
+Fonte: [Reparo no ar-condicionado do Volkswagen Constellation 26.280](https://autoeletricaavelar.com.br/reparo-ar-condicionado-volkswagen-constellation-26280.html)
+
+### 24 de agosto de 2026 — Chevrolet Spin 2023 — Reparo no ar-condicionado — São João Batista do Glória–MG
+
+- Página: https://autoeletricaavelar.com.br/reparo-ar-condicionado-chevrolet-spin-2023-sao-joao-batista-do-gloria.html
+- Veículo: Chevrolet Spin
+- Ano: 2023
+- Motorização: não informada no registro disponível
+- Serviço: reparo no sistema de ar-condicionado
+- Categoria relacionada: climatização automotiva / veículo leve / atendimento regional
+- Localidade informada pela equipe: São João Batista do Glória–MG
+- O registro não especifica se essa localidade corresponde à origem do veículo/cliente ou ao local físico exato do atendimento; não transformar essa referência em afirmação mais específica sem confirmação adicional
+- Conteúdo disponível: vídeo hospedado no YouTube; a página usa a miniatura do vídeo como imagem de apoio enquanto não há fotografia local publicada no repositório
+- Vídeo: https://youtube.com/shorts/a-95a5olsQs
+- Informação fornecida pela equipe: "Reparo Ar-condicionado Spin", "2023" e referência à cidade de São João Batista do Glória
+- Sintoma inicial: não informado
+- Diagnóstico detalhado: não informado
+- Componente reparado ou substituído: não informado
+- Pressões, temperatura ou carga de fluido: não informadas
+- Resultado ou medições finais: não informados
+- Observação importante: não presumir compressor, vazamento, sensor, componente elétrico, quantidade de fluido ou outro diagnóstico específico.
+
+Fonte: [Reparo no ar-condicionado da Chevrolet Spin 2023](https://autoeletricaavelar.com.br/reparo-ar-condicionado-chevrolet-spin-2023-sao-joao-batista-do-gloria.html)
 
 ### 21 de agosto de 2026 — SafraMax SM3C — Reparo da central/monitor de plantio
 
