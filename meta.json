@@ -69,17 +69,19 @@
       "name": "Trabalhos documentados da Auto Elétrica Avelar",
       "itemListOrder": "https://schema.org/ItemListOrderDescending",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "url": "https://autoeletricaavelar.com.br/reparo-saframax-sm3c-central-monitor-plantio.html", "name": "Reparo SafraMax SM3C — central/monitor de plantio"},
-        {"@type": "ListItem", "position": 2, "url": "https://autoeletricaavelar.com.br/reparo-programacao-modulo-pld-temic-mercedes-1933.html", "name": "Reparo e programação do módulo PLD Temic de Mercedes-Benz 1933"},
-        {"@type": "ListItem", "position": 3, "url": "https://autoeletricaavelar.com.br/reparo-ar-condicionado-iveco-daily-2025-heineken.html", "name": "Reparo no ar-condicionado de Iveco Daily 2025 utilizada pelo Grupo Heineken"},
-        {"@type": "ListItem", "position": 4, "url": "https://autoeletricaavelar.com.br/reparo-ar-condicionado-ford-ecosport-2015.html", "name": "Reparo no ar-condicionado de Ford EcoSport 2015"},
-        {"@type": "ListItem", "position": 5, "url": "https://autoeletricaavelar.com.br/ford-ranger-falha-intermitente-farol.html", "name": "Ford Ranger com falha intermitente no farol"},
-        {"@type": "ListItem", "position": 6, "url": "https://autoeletricaavelar.com.br/reparo-modulo-pld-ecu-mercedes-2429.html", "name": "Reparo no módulo PLD/ECU de Mercedes-Benz 2429"},
-        {"@type": "ListItem", "position": 7, "url": "https://autoeletricaavelar.com.br/reparo-ar-condicionado-honda-fit-passos-mg.html", "name": "Reparo no ar-condicionado de Honda Fit em Passos MG"},
-        {"@type": "ListItem", "position": 8, "url": "https://autoeletricaavelar.com.br/carga-ar-condicionado-gol-passos-mg.html", "name": "Complemento de carga do ar-condicionado em Volkswagen Gol em Passos MG"},
-        {"@type": "ListItem", "position": 9, "url": "https://autoeletricaavelar.com.br/remap-s10-2-8-2021-carmo-do-rio-claro.html", "name": "Remap em Chevrolet S10 2.8 2021 em Carmo do Rio Claro MG"}
+        {"@type": "ListItem", "position": 1, "url": "https://autoeletricaavelar.com.br/reparo-ar-condicionado-volkswagen-constellation-26280.html", "name": "Reparo no ar-condicionado de Volkswagen Constellation 26.280"},
+        {"@type": "ListItem", "position": 2, "url": "https://autoeletricaavelar.com.br/reparo-ar-condicionado-chevrolet-spin-2023-sao-joao-batista-do-gloria.html", "name": "Reparo no ar-condicionado de Chevrolet Spin 2023 de São João Batista do Glória MG"},
+        {"@type": "ListItem", "position": 3, "url": "https://autoeletricaavelar.com.br/reparo-saframax-sm3c-central-monitor-plantio.html", "name": "Reparo SafraMax SM3C — central/monitor de plantio"},
+        {"@type": "ListItem", "position": 4, "url": "https://autoeletricaavelar.com.br/reparo-programacao-modulo-pld-temic-mercedes-1933.html", "name": "Reparo e programação do módulo PLD Temic de Mercedes-Benz 1933"},
+        {"@type": "ListItem", "position": 5, "url": "https://autoeletricaavelar.com.br/reparo-ar-condicionado-iveco-daily-2025-heineken.html", "name": "Reparo no ar-condicionado de Iveco Daily 2025 utilizada pelo Grupo Heineken"},
+        {"@type": "ListItem", "position": 6, "url": "https://autoeletricaavelar.com.br/reparo-ar-condicionado-ford-ecosport-2015.html", "name": "Reparo no ar-condicionado de Ford EcoSport 2015"},
+        {"@type": "ListItem", "position": 7, "url": "https://autoeletricaavelar.com.br/ford-ranger-falha-intermitente-farol.html", "name": "Ford Ranger com falha intermitente no farol"},
+        {"@type": "ListItem", "position": 8, "url": "https://autoeletricaavelar.com.br/reparo-modulo-pld-ecu-mercedes-2429.html", "name": "Reparo no módulo PLD/ECU de Mercedes-Benz 2429"},
+        {"@type": "ListItem", "position": 9, "url": "https://autoeletricaavelar.com.br/reparo-ar-condicionado-honda-fit-passos-mg.html", "name": "Reparo no ar-condicionado de Honda Fit em Passos MG"},
+        {"@type": "ListItem", "position": 10, "url": "https://autoeletricaavelar.com.br/carga-ar-condicionado-gol-passos-mg.html", "name": "Complemento de carga do ar-condicionado em Volkswagen Gol em Passos MG"},
+        {"@type": "ListItem", "position": 11, "url": "https://autoeletricaavelar.com.br/remap-s10-2-8-2021-carmo-do-rio-claro.html", "name": "Remap em Chevrolet S10 2.8 2021 em Carmo do Rio Claro MG"}
       ]
     }
   ],
-  "dateModified": "2026-08-24"
+  "dateModified": "2026-08-28"
 }
