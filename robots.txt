@@ -1,6 +1,15 @@
 User-agent: *
 Allow: /
 
+# Busca do ChatGPT: permitir descoberta e citação do conteúdo público.
+User-agent: OAI-SearchBot
+Allow: /
+
+# Gemini / Google-Extended: permitir uso elegível para grounding e sistemas generativos do Google.
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://autoeletricaavelar.com.br/sitemap.xml
 
-# Resumo opcional para sistemas de IA: https://autoeletricaavelar.com.br/llms.txt
+# Resumo factual opcional para agentes e sistemas de IA:
+# https://autoeletricaavelar.com.br/llms.txt
